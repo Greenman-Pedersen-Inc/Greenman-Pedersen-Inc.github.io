@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>SettingsMenu/widgets/TourToggle/widgets/WelcomeTour/index.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/Greenman-Pedersen-Inc/voyager.webpack.vehicle" target="_blank" class="menu-item" id="repo_link" >Github Repository</a></h2><h3>Modules</h3><ul><li><a href="module-API.html">API</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-API.html#.getCrashSegmentsHeatmapQuery">getCrashSegmentsHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#.getNetworkSegmentData">getNetworkSegmentData</a></li><li data-type='method' style='display: none;'><a href="module-API.html#.getStateBreakdown">getStateBreakdown</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~CreateDetailWhereClause">CreateDetailWhereClause</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~CreateSearchParameters">CreateSearchParameters</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~CreateWhereClause">CreateWhereClause</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetAccidentsBySriQuery">GetAccidentsBySriQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetClusterHeatmapQuery">GetClusterHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetCountyHeatmapQuery">GetCountyHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetCrashDetailsQuery">GetCrashDetailsQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetCrashesQuery">GetCrashesQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetMuniHeatmapQuery">GetMuniHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetPersonsQuery">GetPersonsQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetSriQuery">GetSriQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~addUserQueries">addUserQueries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~deleteUserQueries">deleteUserQueries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~errorHandler">errorHandler</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCountyBoundaries">getCountyBoundaries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCountyBoundingBoxQuery">getCountyBoundingBoxQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCrash">getCrash</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCrashDetailQuery">getCrashDetailQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCrashList">getCrashList</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getData">getData</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getExportRecords">getExportRecords</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getExportRecordsByID">getExportRecordsByID</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getFeedbackFormQuery">getFeedbackFormQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getFullName">getFullName</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getGraphDataQuery">getGraphDataQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getLayerAttributes">getLayerAttributes</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getMPO">getMPO</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getModules">getModules</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getMunicipalBoundingBoxQuery">getMunicipalBoundingBoxQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getMunicipalityBoundaries">getMunicipalityBoundaries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getNotifications">getNotifications</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getRouteCrashData">getRouteCrashData</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSRIBreakdown">getSRIBreakdown</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSRIHistogramQuery">getSRIHistogramQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSRIUnderlayQuery">getSRIUnderlayQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSessionInfo">getSessionInfo</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getTable">getTable</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getTopLocations">getTopLocations</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getUserQueries">getUserQueries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~postData">postData</a></li></ul></li><li><a href="module-AlertBox.html">AlertBox</a></li><li><a href="module-CodeTranslator.html">CodeTranslator</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertCodeDescription">convertCodeDescription</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertFeature">convertFeature</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertFeatureObjectValues">convertFeatureObjectValues</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertTableCodes">convertTableCodes</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~resolveFieldAlias">resolveFieldAlias</a></li></ul></li><li><a href="module-CrashFilter.html">CrashFilter</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~clearSearchHighlights">clearSearchHighlights</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~getSelectedFilters">getSelectedFilters</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~getSelectedJurisdictions">getSelectedJurisdictions</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~getSignalsSelectedFilters">getSignalsSelectedFilters</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~searchFilters">searchFilters</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~setFilters">setFilters</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashClusters.html">CrashMap/widgets/CrashClusters</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~addToMap">addToMap</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~setMinZoom">setMinZoom</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~updateSourceData">updateSourceData</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashGrouping.html">CrashMap/widgets/CrashGrouping</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping.html#~CrashGrouping">CrashGrouping</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping.html#~addSelectValues">addSelectValues</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping.html#~removePriorWindows">removePriorWindows</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator.html">CrashMap/widgets/CrashGrouping/widgets/BreakdownComparator</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator_widgets_BreakdownChart.html">CrashMap/widgets/CrashGrouping/widgets/BreakdownComparator/widgets/BreakdownChart</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator_widgets_BreakdownChart.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashRecordDialog.html">CrashMap/widgets/CrashRecordDialog</a></li><li><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html">CrashMap/widgets/CrashSegmentsHeatmap</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~addToMap">addToMap</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~clearVisuals">clearVisuals</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~highlightFeature">highlightFeature</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~updateSourceData">updateSourceData</a></li></ul></li><li><a href="module-CrashMap_widgets_HighlightFeature.html">CrashMap/widgets/HighlightFeature</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_HighlightFeature.html#~clearHighlight">clearHighlight</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_HighlightFeature.html#~makePointData">makePointData</a></li></ul></li><li><a href="module-CrashMap_widgets_JursidictionBoundaries.html">CrashMap/widgets/JursidictionBoundaries</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_JursidictionBoundaries.html#~addToMap">addToMap</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_JursidictionBoundaries.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_Legend.html">CrashMap/widgets/Legend</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~addLayerGroup">addLayerGroup</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~checkXPosition">checkXPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~checkYPosition">checkYPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~clear">clear</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~getPosition">getPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~resetYPosition">resetYPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~show">show</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_LegendCard.html">CrashMap/widgets/LegendCard</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCard.html#~populateCardEntries">populateCardEntries</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCard.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCard.html#~updateVisibility">updateVisibility</a></li></ul></li><li><a href="module-CrashMap_widgets_LegendCardGroup.html">CrashMap/widgets/LegendCardGroup</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCardGroup.html#~createLegendScheme">createLegendScheme</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCardGroup.html#~updateVisibility">updateVisibility</a></li></ul></li><li><a href="module-CrashMap_widgets_MapSources.html">CrashMap/widgets/MapSources</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getHighlightLayerSource">getHighlightLayerSource</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getHighlightLayerSource">getHighlightLayerSource</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getLayerGroupData">getLayerGroupData</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getMapLayerData">getMapLayerData</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getOverlayLayerDefinitions">getOverlayLayerDefinitions</a></li></ul></li><li><a href="module-CrashMap_widgets_Screenshot.html">CrashMap/widgets/Screenshot</a></li><li><a href="module-FeedbackForm.html">FeedbackForm</a></li><li><a href="module-FilterMenu.html">FilterMenu</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~clearCheckBoxSpinners">clearCheckBoxSpinners</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~isLoading">isLoading</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~show">show</a></li></ul></li><li><a href="module-FilterMenu_widgets_CheckboxFilter.html">FilterMenu/widgets/CheckboxFilter</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~clearTable">clearTable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~selectEntireTable">selectEntireTable</a></li></ul></li><li><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html">FilterMenu/widgets/CheckboxFilter/widgets/CheckBoxRow</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html#~check">check</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html#~disable">disable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html#~uncheck">uncheck</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector.html">FilterMenu/widgets/DateSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~show">show</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_ApplyChangesSelector.html">FilterMenu/widgets/DateSelector/widgets/ApplyChangesSelector</a></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html">FilterMenu/widgets/DateSelector/widgets/DateRangeSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~clearDateRangeSelection">clearDateRangeSelection</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~returnRange">returnRange</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html">FilterMenu/widgets/DateSelector/widgets/MonthSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~clearMonthSelection">clearMonthSelection</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~highlightMonthsByValues">highlightMonthsByValues</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~setFilter">setFilter</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html">FilterMenu/widgets/DateSelector/widgets/YearSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~clearYearSelection">clearYearSelection</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~highlightYearsByValues">highlightYearsByValues</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~setFilter">setFilter</a></li></ul></li><li><a href="module-FilterMenu_widgets_LocationFilter_widgets_ApplyChangesSelector.html">FilterMenu/widgets/LocationFilter/widgets/ApplyChangesSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_LocationFilter_widgets_ApplyChangesSelector.html#~error">error</a></li></ul></li><li><a href="module-FilterMenu_widgets_LocationFilter_widgets_RadioBoxRow.html">FilterMenu/widgets/LocationFilter/widgets/RadioBoxRow</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_LocationFilter_widgets_RadioBoxRow.html#~reset">reset</a></li></ul></li><li><a href="module-FilterMenu_widgets_MultivehicleFilter.html">FilterMenu/widgets/MultivehicleFilter</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~show">show</a></li></ul></li><li><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_ApplyChangesSelector.html">FilterMenu/widgets/MultivehicleFilter/widgets/ApplyChangesSelector</a></li><li><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html">FilterMenu/widgets/MultivehicleFilter/widgets/SelectDropDown</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~disable">disable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~enable">enable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~update">update</a></li></ul></li><li><a href="module-FilterSearch.html">FilterSearch</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterSearch.html#~clear">clear</a></li><li data-type='method' style='display: none;'><a href="module-FilterSearch.html#~clearSearchHighlights">clearSearchHighlights</a></li></ul></li><li><a href="module-HomeButton.html">HomeButton</a></li><li><a href="module-Modal.html">Modal</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-Modal.html#~errorHandler">errorHandler</a></li><li data-type='method' style='display: none;'><a href="module-Modal.html#~evaluateZoomVisibility">evaluateZoomVisibility</a></li><li data-type='method' style='display: none;'><a href="module-Modal.html#~remove">remove</a></li><li data-type='method' style='display: none;'><a href="module-Modal.html#~show">show</a></li></ul></li><li></li><li><a href="module-MoveablePopup.html">MoveablePopup</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-MoveablePopup.html#~checkXPosition">checkXPosition</a></li><li data-type='method' style='display: none;'><a href="module-MoveablePopup.html#~checkYPosition">checkYPosition</a></li></ul></li><li><a href="module-OmniSearch.html">OmniSearch</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~fireCustomQuery">fireCustomQuery</a></li><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~fireCustomQuery">fireCustomQuery</a></li><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~isSearchFilterButtonToggled">isSearchFilterButtonToggled</a></li></ul></li><li><a href="module-OmniSearch_widgets_OmniResult.html">OmniSearch/widgets/OmniResult</a></li><li><a href="module-OmniSearch_widgets_SearchFilterButton.html">OmniSearch/widgets/SearchFilterButton</a></li><li><a href="module-Popup.html">Popup</a></li><li><a href="module-Popup_widgets_PopupGrid.html">Popup/widgets/PopupGrid</a></li><li><a href="module-RadioBoxTable.html">RadioBoxTable</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-RadioBoxTable.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-RadioBoxTable.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-RadioBoxTable.html#~updateSelection">updateSelection</a></li></ul></li><li><a href="module-ResultsPane.html">ResultsPane</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane.html#~resizeResultsTable">resizeResultsTable</a></li></ul></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartOptions.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/ChartOptions</a></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/ChartTabs</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html#~getGraphData">getGraphData</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html#~initiateChart">initiateChart</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html#~updateCharts">updateCharts</a></li></ul></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/SpeedChart</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html#~createChart">createChart</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html#~prepData">prepData</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html#~update">update</a></li></ul></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/TemporalChart</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html#~createChart">createChart</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html#~prepData">prepData</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html#~update">update</a></li></ul></li><li><a href="module-ResultsPane_widgets_ExportCSV.html">ResultsPane/widgets/ExportCSV</a></li><li><a href="module-ResultsPane_widgets_ExportCrashRecords.html">ResultsPane/widgets/ExportCrashRecords</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ExportCrashRecords.html#~enableSpinner">enableSpinner</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ExportCrashRecords.html#~exportRecords">exportRecords</a></li></ul></li><li><a href="module-ResultsPane_widgets_FilterSummary.html">ResultsPane/widgets/FilterSummary</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_FilterSummary.html#~formatYearFilter">formatYearFilter</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_FilterSummary.html#~removeLabels">removeLabels</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_FilterSummary.html#~update">update</a></li></ul></li><li><a href="module-ResultsPane_widgets_ResultsGrid.html">ResultsPane/widgets/ResultsGrid</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~compare_cty_code">compare_cty_code</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~compare_muni_code">compare_muni_code</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~exportCsv">exportCsv</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~removeDuplicateObjects">removeDuplicateObjects</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~removeHighlight">removeHighlight</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~resize">resize</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~show">show</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~update">update</a></li></ul></li><li><a href="module-SettingsMenu.html">SettingsMenu</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~disableClusterToggleButton">disableClusterToggleButton</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~show">show</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~startTour">startTour</a></li></ul></li><li><a href="module-SettingsMenu_widgets_BasemapToggle.html">SettingsMenu/widgets/BasemapToggle</a></li><li><a href="module-SettingsMenu_widgets_ClusterToggle.html">SettingsMenu/widgets/ClusterToggle</a></li><li><a href="module-SettingsMenu_widgets_CrashClusterSelect.html">SettingsMenu/widgets/CrashClusterSelect</a></li><li><a href="module-SettingsMenu_widgets_MenuAnnotationToggle.html">SettingsMenu/widgets/MenuAnnotationToggle</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-SettingsMenu_widgets_MenuAnnotationToggle.html#~setAnnotationMode">setAnnotationMode</a></li></ul></li><li><a href="module-SettingsMenu_widgets_SignalsTourToggle_widgets_WelcomeTour.html">SettingsMenu/widgets/SignalsTourToggle/widgets/WelcomeTour</a></li><li><a href="module-SettingsMenu_widgets_TourToggle.html">SettingsMenu/widgets/TourToggle</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-SettingsMenu_widgets_TourToggle.html#~mouseEnterHandler">mouseEnterHandler</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu_widgets_TourToggle.html#~mouseLeaveHandler">mouseLeaveHandler</a></li></ul></li><li><a href="module-SettingsMenu_widgets_UserManual.html">SettingsMenu/widgets/UserManual</a></li><li><a href="module-StatsExplorer.html">StatsExplorer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~clear">clear</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~clearChart">clearChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~clearVehicleChartDivs">clearVehicleChartDivs</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createChart">createChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createPersonsSeverityChart">createPersonsSeverityChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createSelect">createSelect</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createVehicleModelChart">createVehicleModelChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createVehiclesAttributeChart">createVehiclesAttributeChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~generateVehicleChartDivs">generateVehicleChartDivs</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~init">init</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~loading">loading</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~loadingDiv">loadingDiv</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~updateSeverityChart">updateSeverityChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~updateStatsChart">updateStatsChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~updateVehicleMakeChart">updateVehicleMakeChart</a></li></ul></li><li><a href="module-StatsPane.html">StatsPane</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~checkOpen">checkOpen</a></li><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~init">init</a></li><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~togglePane">togglePane</a></li><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~update">update</a></li></ul></li><li><a href="module-Utilities.html">Utilities</a></li><li><a href="module-urls.html">urls</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">SettingsMenu/widgets/TourToggle/widgets/WelcomeTour/index.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import Shepherd from 'shepherd.js';
+import { offset } from '@floating-ui/dom';
+import CrashGrouping from '../../../../../CrashMap/widgets/CrashGrouping';
+import 'shepherd.js/dist/css/shepherd.css';
+import './welcome.tour.css';
+
+/**
+ * Contains the welcome tour contents using `sheperd.js`. 
+ * Handles starting the tour.
+ * @module SettingsMenu/widgets/SignalsTourToggle/widgets/WelcomeTour
+ * @date 2024-11-20
+ * @param {module} crashMap The Crash Map module.
+ * @param {module} filterMenu The Filter Menu module.
+ * @param {module} settingsMenu The Settings Menu module.
+ * @requires shepherd.js
+ * @requires @floating-ui/dom
+ * @requires shepherd.js/dist/css/shepherd.css
+ * @requires ./welcome.tour.css
+ */
+export default function WelcomeTour(crashMap, filterMenu, settingsMenu, statsPane) {
+    /**
+     * @static
+     * @name tour
+     * The default settings for the tour using `shepard.js` formatting.
+     */
+    const tour = new Shepherd.Tour({
+        useModalOverlay: true,
+        defaultStepOptions: {
+            cancelIcon: {
+                enabled: true
+            },
+            // classes: 'shadow-md bg-purple-dark tour-border',
+            scrollTo: false,
+            popperOptions: {
+                // modifiers: [{ name: 'offset', options: { offset: [15, 15] } }]
+            },
+            when: {
+                show() {
+                    const currentStepElement = tour.currentStep.el;
+                    const header = currentStepElement.querySelector('.shepherd-header');
+                    const progress = document.createElement('span');
+                    progress.style['margin-right'] = '15px';
+                    progress.innerText = `${tour.steps.indexOf(tour.currentStep) + 1}/${tour.steps.length}`;
+                    header.insertBefore(progress, currentStepElement.querySelector('.shepherd-cancel-icon'));
+                }
+            }
+        }
+    });
+
+    /**
+     * @static
+     * @name welcomeTour
+     * The steps of the welcome tour in `shepard.js` formatting.
+     */
+    const welcomeTour = [
+        {
+            id: 'welcome',
+            title: 'Welcome to the Vehicle Module!',
+            text: `This tutorial will go over the module interface and viewing crashes with vehicle statistics.`,
+            buttons: [
+                {
+                    text: 'Next',
+                    action: tour.next
+                }
+            ]
+        },
+        {
+            id: 'map',
+            title: 'Crashes along Roadways',
+            text: `This map displays aggregate crashes based on roadway geometry. Zooming to the map will display crashes along local roads.
+            &lt;br>&lt;br> To see this in action, try zooming into the map using your scroll wheel or by clicking on the 'Zoom in' button.
+            `,
+            attachTo: {
+                element: '.mapboxgl-canvas'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: tour.back
+                },
+                {
+                    text: 'Zoom in',
+                    action: function () {
+                        crashMap.map.jumpTo({
+                            center: [-75.03007498005259, 39.93829689841316],
+                            zoom: 15,
+                            essential: true
+                        });
+                        crashMap.refreshHandler();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: tour.next
+                }
+            ],
+            classes: 'tour-map-step'
+        },
+        {
+            id: 'map',
+            title: 'Segment Vehicle Statistics',
+            text: `The arrows in each road segment indicate the travel direction. &lt;b>Click&lt;/b> on a segment to open a popup displaying severity counts and options to generate vehicle statistics.
+            &lt;br>&lt;br>&lt;b>Click&lt;/b> on the "View in Statistics Pane" button to open the pane on the right`,
+            modal: false,
+            attachTo: {
+                element: '.mapboxgl-canvas'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function() {
+                        crashMap.StatsPane.togglePane(false);
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'Zoom in',
+                    action: function () {
+                        crashMap.map.jumpTo({
+                            center: [-75.03007498005259, 39.93829689841316],
+                            zoom: 15,
+                            essential: true
+                        });
+                        crashMap.refreshHandler();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        // if the stats pane isn't open, then zoom into the map and open a popup
+                        if (!crashMap.StatsPane.checkOpen()) {
+                            crashMap.map.jumpTo({
+                                center: [-75.03007498005259, 39.93829689841316],
+                                zoom: 15,
+                                essential: true
+                            });
+                            crashMap.refreshHandler();
+                            const features = crashMap.map.queryRenderedFeatures({
+                                layers: ['crash_segments'],
+                            });
+
+                            if (features.length > 0) {
+                                // crashMap.StatsPane.togglePane(true);
+                                const feature = features[0];
+                                const additionalFilters = {
+                                    sri: feature.properties.sri,
+                                    mp_start: feature.properties.min_mp,
+                                    mp_end: feature.properties.max_mp,
+                                    veh_one_travel_dir_code: feature.properties.segment_directions,
+                                };
+                                new CrashGrouping(crashMap.crashFilter, undefined, undefined, crashMap, additionalFilters, feature);
+                                crashMap.StatsPane.update(additionalFilters);
+                            }
+                            tour.next();
+                        }
+                    }
+                }
+            ],
+            advanceOn: {
+                selector: '#stats-pane-button',
+                event: 'click'
+            },
+            classes: 'tour-map-step'
+        },
+        {
+            id: 'stats-pane',
+            title: 'Vehicle Statistics Pane',
+            text: `This pane displays the crash list and vehicle statistics for your selected roadway.
+            `,
+            modal: false,
+            attachTo: {
+                element: '#stats-container',
+                on: 'left'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: tour.back
+                },
+                {
+                    text: 'Next',
+                    action: function() {
+                        tour.next();
+                    }
+                }
+            ],
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'vehicles-stats',
+            title: 'Vehicles Attributes Explorer',
+            text: `The Vehicles Attributes Explorer tab shows vehicle-specific statistics for your selected roadway. 
+            &lt;br>&lt;br>&lt;b>Click&lt;/b> on a bar in the Vehicle Attribute Breakdown chart
+            to update the Persons Severity chart and Vehicle Make Breakdown. Re-click your selected bar to undo the filter.
+            `,
+            attachTo: {
+                element: '#stats-container',
+                on: 'left'
+            },
+            when: {
+                show: () => {
+                    document.getElementById('vehicles-explorer-pill').click();
+                },
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: tour.back
+                },
+                {
+                    text: 'Next',
+                    action: tour.next
+                }
+            ],
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'map',
+            title: 'Toggle the Statistics Pane',
+            text: `Click to toggle the Statistics Pane open or closed.
+            `,
+            attachTo: {
+                element: '#stats-pane-toggle',
+                on: 'left'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: tour.back
+                },
+                {
+                    text: 'Next',
+                    action: function() {
+                        crashMap.StatsPane.togglePane(false);
+                        tour.next();
+                    }
+                }
+            ],
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+            // classes: 'tour-map-step'
+        },
+        {
+            id: 'menu-toggles',
+            title: 'Menus Overview',
+            text: `
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-filter-2-fill tour-icon-padding'>&lt;/div>Displays a list of NJTR-1 attributes which can be selected to filter crashes on the map.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-settings-5-fill tour-icon-padding'>&lt;/div>Options to display different map visualizations, user settings, and tutorials.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-alarm-warning-line tour-icon-padding'>&lt;/div>Shows updates and changes to the Crash Map module.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-camera-3-line tour-icon-padding'>&lt;/div>Download a PNG file of the current map view.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-list-unordered tour-icon-padding'>&lt;/div>Toggle the Legend popup on or off.&lt;/div>       
+            `,
+            attachTo: {
+                element: '#menu-toggles',
+                on: 'right'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        tour.next();
+                    }
+                }
+            ],
+            modalOverlayOpeningPadding: 5,
+            modalOverlayOpeningRadius: 5,
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'filter-menu-1',
+            title: 'Filter Menu',
+            text: '&lt;b>Click&lt;/b> on the Filter Menu button to open the list of crash filters.',
+            attachTo: {
+                element: '#filtersMenuDiv',
+                on: 'right'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        document.getElementById("filtersMenuDiv").click();
+                    }
+                }
+            ],
+            advanceOn: {
+                selector: '#filtersMenuDiv',
+                event: 'click'
+            },
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'filter-menu-2',
+            title: 'Filter Menu',
+            text: `These filters are categories in the NJTR-1 police report form. A number in a box ☐ indicates the box number the category corresponds to in the form. A number in a circle ◯ represents the code number an attribute corresponds to under the NJTR-1 category.
+            &lt;br>&lt;br>Select a few filters to see how the map data changes. When filters are selected, the map will automatically refresh with your selections. 
+            &lt;br>&lt;br>The Temporal Filter will always be enabled as the past 5 years are selected by default.`,
+            attachTo: {
+                element: '.mapboxgl-canvas'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        tour.back();
+                        filterMenu.hideAll();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        filterMenu.hideAll();
+                        tour.next();
+                    }
+                }
+            ],
+            classes: 'tour-centered'
+        },
+        {
+            id: 'filter-summary',
+            title: 'Filter Summary',
+            text: `Selected filters will be summarized here. 
+            &lt;br>&lt;br>When filters under the same category are selected, crashes will be queried with an 'OR' clause. For example: Special Function of School Bus OR Police OR Ambulance.
+            &lt;br>&lt;br>Filters selected across different categories will append an 'AND' clause. For example: (Special Function of School Bus OR Police OR Ambulance) AND (Traffic Controls with Stop Sign).
+            `,
+            attachTo: {
+                element: '#results-pane-summary',
+                on: 'top'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        document.getElementById("filtersMenuDiv").click();
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        tour.next();
+                    }
+                }
+            ],
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'results-pane',
+            title: 'Results Pane',
+            text: `&lt;b>Click&lt;/b> here to open the Results Pane.
+            `,
+            attachTo: {
+                element: '#results-pane-toggle',
+                on: 'top'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        document.getElementsByClassName("results-pane-toggle")[0].click();
+                        tour.next();
+                    }
+                }
+            ],
+            advanceOn: {
+                selector: '.results-pane-toggle',
+                event: 'click'
+            },
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'results-pane-results-table',
+            title: 'Results Pane - Results Table',
+            text: `This table will summarize crash counts based on your selected filters and current zoom level on the map. 
+            The table will group crash data by roadway segment and cluster (street level zoom).
+            &lt;br>&lt;br> Hover over a row to highlight the feature on the map. Click on a row to zoom to the feature and display the Vehicles Statistics Pane.`,
+            attachTo: {
+                element: '#tabulated-results-grid',
+                on: 'top'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        tour.back();
+                        if (document.getElementById('results-pane-toggle').classList.contains('green-button-toggle')) {
+                            document.getElementById('results-pane-toggle').click();
+                        }
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        tour.next();
+                    }
+                }
+            ],
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'results-pane-options',
+            title: 'Results Pane - Options',
+            text: `
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-folder-zip-line tour-icon-padding'>&lt;/div>Download a zipped file of crash records based on the crashes currently displayed in the map.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-file-text-line tour-icon-padding'>&lt;/div>Export the results table as a CSV.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-line-chart-line tour-icon-padding'>&lt;/div>Display charts which aggregate crashes in your current map view.&lt;/div>
+            `,
+            attachTo: {
+                element: '.results-pane-controls',
+                on: 'right'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        if (document.getElementById('results-pane-toggle').classList.contains('green-button-toggle')) {
+                            document.getElementById('results-pane-toggle').click();
+                        }
+                        tour.next();
+                        filterMenu.show();
+                    }
+                }
+            ],
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'reset-filters',
+            title: 'Reset Filters',
+            text: `&lt;b>Click&lt;/b> here to reset all selected filters.
+            &lt;br>&lt;br>The Temporal Filter will always be enabled as the past 5 years are selected by default.`,
+            attachTo: {
+                element: '#filter-reset',
+                on: 'right'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        document.getElementById('filter-reset').click();
+                    }
+                }
+            ],
+            advanceOn: {
+                selector: '#filter-reset',
+                event: 'click'
+            },
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'omni-search',
+            title: 'Search Bar',
+            text: 'Search for a route number, county, or municipality here to focus on an individual location. A list of options will generate as you type. Select an option to zoom to your selection.',
+            attachTo: {
+                element: '#omni-search',
+                on: 'right'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        tour.back();
+                        filterMenu.show();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        tour.next();
+                    }
+                }
+            ],
+            when: {
+                show: function () {
+                    filterMenu.hideAll();
+                }
+            },
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'omni-search-options-1',
+            title: 'Search Bar - Additional Categories',
+            text: '&lt;b>Click&lt;/b> to display additional search options.',
+            attachTo: {
+                element: '#omni-search-options',
+                on: 'bottom'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        document.getElementById('omni-search-options').click();
+                    }
+                }
+            ],
+            advanceOn: {
+                selector: '#omni-search-options',
+                event: 'click'
+            },
+            when: {
+                show: function () {
+                    filterMenu.hideAll();
+                }
+            },
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'omni-search-options-2',
+            title: 'Search Bar - Additional Categories ',
+            text: 'This menu displays all categories that can be searched on. Route, county, jurisdiction, and address searching are on by default. You can toggle on searching by DLN Number.',
+            attachTo: {
+                element: '.search-type-options',
+                on: 'bottom-end'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        document.getElementById('omni-search-options').click();
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        document.getElementById('omni-search-options').click();
+                        settingsMenu.show();
+                        tour.next();
+                    }
+                }
+            ],
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'settingsMenu',
+            title: 'Settings Menu',
+            text: `The Settings Menu contains options for changing the basemap, simplifying the Filter Menu, providing feedback, and viewing tutorials.&lt;br>&lt;br>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-save-3-line tour-icon-padding'>&lt;/div>Save your current filters and map view to re-run them later. Currently in development.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element satellite tour-icon-padding'>&lt;/div>"Toggle between Line-Drawn and Satellite basemaps.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-shape-line tour-icon-padding'>&lt;/div>Select crash clusters by drawing a polygon.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element omni-element-text tour-icon-padding tour-icon-size'>2D&lt;/div>Display crash clusters while in SRI view.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-filter-2-line tour-icon-padding'>&lt;/div>Toggle to display a simplified version of the Filter Menu.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element menu-annotation-toggle tour-icon-padding filter-menu-toggle-size'>&lt;/div>Toggle the Filter Menu display between (1) Icons and Headers, (2) Headers only, (3) Icons only.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-feedback-line tour-icon-padding'>&lt;/div>Submit feedback for bugs or suggestions.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-question-line tour-icon-padding'>&lt;/div>Restart the tour.&lt;/div>
+            &lt;div class='tour-icon-text'>&lt;div class='omni-element ri-book-mark-line tour-icon-padding'>&lt;/div>Open the User Manual in a new tab.&lt;/div>
+            `,
+            attachTo: {
+                element: '#settings-menu',
+                on: 'right'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'Next',
+                    action: function () {
+                        tour.next();
+                    }
+                }
+            ],
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        },
+        {
+            id: 'end',
+            title: 'Restart Tutorial',
+            text: 'This concludes the tutorial. To restart the tutorial, click the Restart Tutorial button.',
+            attachTo: {
+                element: '.ri-question-line',
+                on: 'right'
+            },
+            buttons: [
+                {
+                    text: 'Back',
+                    action: function () {
+                        document.getElementById('omni-search-options').click();
+                        tour.back();
+                    }
+                },
+                {
+                    text: 'End',
+                    action: function () {
+                        tour.complete();
+                    }
+                }
+            ],
+            floatingUIOptions: {
+                middleware: [offset({ mainAxis: 17, crossAxis: 0 })]
+            }
+        }
+    ];
+
+    tour.addSteps(welcomeTour);
+
+    /**
+     * Clears all crash filters and starts the welcome tour.
+     * @date 2024-11-20
+     * @param {module} crashFilter The Crash Filter module.
+     * @param {module} crashMap The Crash Map module.
+     * @param {module} resultsPane The Results Pane module.
+     */
+    this.start = function (crashFilter, crashMap, resultsPane) {
+        // reset all filters before starting the tour
+        crashFilter.reset();
+        // crashMap.update();
+        resultsPane.updateFilterSummary(); // update the filter summary labels in the results pane
+        tour.start();
+    };
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.4</a> on Tue Dec 17 2024 10:18:34 GMT-0500 (Eastern Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

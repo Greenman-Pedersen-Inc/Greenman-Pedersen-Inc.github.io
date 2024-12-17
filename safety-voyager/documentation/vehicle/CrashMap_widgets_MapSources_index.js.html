@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>CrashMap/widgets/MapSources/index.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/Greenman-Pedersen-Inc/voyager.webpack.vehicle" target="_blank" class="menu-item" id="repo_link" >Github Repository</a></h2><h3>Modules</h3><ul><li><a href="module-API.html">API</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-API.html#.getCrashSegmentsHeatmapQuery">getCrashSegmentsHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#.getNetworkSegmentData">getNetworkSegmentData</a></li><li data-type='method' style='display: none;'><a href="module-API.html#.getStateBreakdown">getStateBreakdown</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~CreateDetailWhereClause">CreateDetailWhereClause</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~CreateSearchParameters">CreateSearchParameters</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~CreateWhereClause">CreateWhereClause</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetAccidentsBySriQuery">GetAccidentsBySriQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetClusterHeatmapQuery">GetClusterHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetCountyHeatmapQuery">GetCountyHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetCrashDetailsQuery">GetCrashDetailsQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetCrashesQuery">GetCrashesQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetMuniHeatmapQuery">GetMuniHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetPersonsQuery">GetPersonsQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetSriQuery">GetSriQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~addUserQueries">addUserQueries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~deleteUserQueries">deleteUserQueries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~errorHandler">errorHandler</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCountyBoundaries">getCountyBoundaries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCountyBoundingBoxQuery">getCountyBoundingBoxQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCrash">getCrash</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCrashDetailQuery">getCrashDetailQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCrashList">getCrashList</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getData">getData</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getExportRecords">getExportRecords</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getExportRecordsByID">getExportRecordsByID</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getFeedbackFormQuery">getFeedbackFormQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getFullName">getFullName</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getGraphDataQuery">getGraphDataQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getLayerAttributes">getLayerAttributes</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getMPO">getMPO</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getModules">getModules</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getMunicipalBoundingBoxQuery">getMunicipalBoundingBoxQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getMunicipalityBoundaries">getMunicipalityBoundaries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getNotifications">getNotifications</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getRouteCrashData">getRouteCrashData</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSRIBreakdown">getSRIBreakdown</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSRIHistogramQuery">getSRIHistogramQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSRIUnderlayQuery">getSRIUnderlayQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSessionInfo">getSessionInfo</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getTable">getTable</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getTopLocations">getTopLocations</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getUserQueries">getUserQueries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~postData">postData</a></li></ul></li><li><a href="module-AlertBox.html">AlertBox</a></li><li><a href="module-CodeTranslator.html">CodeTranslator</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertCodeDescription">convertCodeDescription</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertFeature">convertFeature</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertFeatureObjectValues">convertFeatureObjectValues</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertTableCodes">convertTableCodes</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~resolveFieldAlias">resolveFieldAlias</a></li></ul></li><li><a href="module-CrashFilter.html">CrashFilter</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~clearSearchHighlights">clearSearchHighlights</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~getSelectedFilters">getSelectedFilters</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~getSelectedJurisdictions">getSelectedJurisdictions</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~getSignalsSelectedFilters">getSignalsSelectedFilters</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~searchFilters">searchFilters</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~setFilters">setFilters</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashClusters.html">CrashMap/widgets/CrashClusters</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~addToMap">addToMap</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~setMinZoom">setMinZoom</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~updateSourceData">updateSourceData</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashGrouping.html">CrashMap/widgets/CrashGrouping</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping.html#~CrashGrouping">CrashGrouping</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping.html#~addSelectValues">addSelectValues</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping.html#~removePriorWindows">removePriorWindows</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator.html">CrashMap/widgets/CrashGrouping/widgets/BreakdownComparator</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator_widgets_BreakdownChart.html">CrashMap/widgets/CrashGrouping/widgets/BreakdownComparator/widgets/BreakdownChart</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator_widgets_BreakdownChart.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashRecordDialog.html">CrashMap/widgets/CrashRecordDialog</a></li><li><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html">CrashMap/widgets/CrashSegmentsHeatmap</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~addToMap">addToMap</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~clearVisuals">clearVisuals</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~highlightFeature">highlightFeature</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~updateSourceData">updateSourceData</a></li></ul></li><li><a href="module-CrashMap_widgets_HighlightFeature.html">CrashMap/widgets/HighlightFeature</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_HighlightFeature.html#~clearHighlight">clearHighlight</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_HighlightFeature.html#~makePointData">makePointData</a></li></ul></li><li><a href="module-CrashMap_widgets_JursidictionBoundaries.html">CrashMap/widgets/JursidictionBoundaries</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_JursidictionBoundaries.html#~addToMap">addToMap</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_JursidictionBoundaries.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_Legend.html">CrashMap/widgets/Legend</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~addLayerGroup">addLayerGroup</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~checkXPosition">checkXPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~checkYPosition">checkYPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~clear">clear</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~getPosition">getPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~resetYPosition">resetYPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~show">show</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_LegendCard.html">CrashMap/widgets/LegendCard</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCard.html#~populateCardEntries">populateCardEntries</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCard.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCard.html#~updateVisibility">updateVisibility</a></li></ul></li><li><a href="module-CrashMap_widgets_LegendCardGroup.html">CrashMap/widgets/LegendCardGroup</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCardGroup.html#~createLegendScheme">createLegendScheme</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCardGroup.html#~updateVisibility">updateVisibility</a></li></ul></li><li><a href="module-CrashMap_widgets_MapSources.html">CrashMap/widgets/MapSources</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getHighlightLayerSource">getHighlightLayerSource</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getHighlightLayerSource">getHighlightLayerSource</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getLayerGroupData">getLayerGroupData</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getMapLayerData">getMapLayerData</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getOverlayLayerDefinitions">getOverlayLayerDefinitions</a></li></ul></li><li><a href="module-CrashMap_widgets_Screenshot.html">CrashMap/widgets/Screenshot</a></li><li><a href="module-FeedbackForm.html">FeedbackForm</a></li><li><a href="module-FilterMenu.html">FilterMenu</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~clearCheckBoxSpinners">clearCheckBoxSpinners</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~isLoading">isLoading</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~show">show</a></li></ul></li><li><a href="module-FilterMenu_widgets_CheckboxFilter.html">FilterMenu/widgets/CheckboxFilter</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~clearTable">clearTable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~selectEntireTable">selectEntireTable</a></li></ul></li><li><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html">FilterMenu/widgets/CheckboxFilter/widgets/CheckBoxRow</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html#~check">check</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html#~disable">disable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html#~uncheck">uncheck</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector.html">FilterMenu/widgets/DateSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~show">show</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_ApplyChangesSelector.html">FilterMenu/widgets/DateSelector/widgets/ApplyChangesSelector</a></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html">FilterMenu/widgets/DateSelector/widgets/DateRangeSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~clearDateRangeSelection">clearDateRangeSelection</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~returnRange">returnRange</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html">FilterMenu/widgets/DateSelector/widgets/MonthSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~clearMonthSelection">clearMonthSelection</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~highlightMonthsByValues">highlightMonthsByValues</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~setFilter">setFilter</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html">FilterMenu/widgets/DateSelector/widgets/YearSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~clearYearSelection">clearYearSelection</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~highlightYearsByValues">highlightYearsByValues</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~setFilter">setFilter</a></li></ul></li><li><a href="module-FilterMenu_widgets_LocationFilter_widgets_ApplyChangesSelector.html">FilterMenu/widgets/LocationFilter/widgets/ApplyChangesSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_LocationFilter_widgets_ApplyChangesSelector.html#~error">error</a></li></ul></li><li><a href="module-FilterMenu_widgets_LocationFilter_widgets_RadioBoxRow.html">FilterMenu/widgets/LocationFilter/widgets/RadioBoxRow</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_LocationFilter_widgets_RadioBoxRow.html#~reset">reset</a></li></ul></li><li><a href="module-FilterMenu_widgets_MultivehicleFilter.html">FilterMenu/widgets/MultivehicleFilter</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~show">show</a></li></ul></li><li><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_ApplyChangesSelector.html">FilterMenu/widgets/MultivehicleFilter/widgets/ApplyChangesSelector</a></li><li><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html">FilterMenu/widgets/MultivehicleFilter/widgets/SelectDropDown</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~disable">disable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~enable">enable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~update">update</a></li></ul></li><li><a href="module-FilterSearch.html">FilterSearch</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterSearch.html#~clear">clear</a></li><li data-type='method' style='display: none;'><a href="module-FilterSearch.html#~clearSearchHighlights">clearSearchHighlights</a></li></ul></li><li><a href="module-HomeButton.html">HomeButton</a></li><li><a href="module-Modal.html">Modal</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-Modal.html#~errorHandler">errorHandler</a></li><li data-type='method' style='display: none;'><a href="module-Modal.html#~evaluateZoomVisibility">evaluateZoomVisibility</a></li><li data-type='method' style='display: none;'><a href="module-Modal.html#~remove">remove</a></li><li data-type='method' style='display: none;'><a href="module-Modal.html#~show">show</a></li></ul></li><li></li><li><a href="module-MoveablePopup.html">MoveablePopup</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-MoveablePopup.html#~checkXPosition">checkXPosition</a></li><li data-type='method' style='display: none;'><a href="module-MoveablePopup.html#~checkYPosition">checkYPosition</a></li></ul></li><li><a href="module-OmniSearch.html">OmniSearch</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~fireCustomQuery">fireCustomQuery</a></li><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~fireCustomQuery">fireCustomQuery</a></li><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~isSearchFilterButtonToggled">isSearchFilterButtonToggled</a></li></ul></li><li><a href="module-OmniSearch_widgets_OmniResult.html">OmniSearch/widgets/OmniResult</a></li><li><a href="module-OmniSearch_widgets_SearchFilterButton.html">OmniSearch/widgets/SearchFilterButton</a></li><li><a href="module-Popup.html">Popup</a></li><li><a href="module-Popup_widgets_PopupGrid.html">Popup/widgets/PopupGrid</a></li><li><a href="module-RadioBoxTable.html">RadioBoxTable</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-RadioBoxTable.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-RadioBoxTable.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-RadioBoxTable.html#~updateSelection">updateSelection</a></li></ul></li><li><a href="module-ResultsPane.html">ResultsPane</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane.html#~resizeResultsTable">resizeResultsTable</a></li></ul></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartOptions.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/ChartOptions</a></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/ChartTabs</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html#~getGraphData">getGraphData</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html#~initiateChart">initiateChart</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html#~updateCharts">updateCharts</a></li></ul></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/SpeedChart</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html#~createChart">createChart</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html#~prepData">prepData</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html#~update">update</a></li></ul></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/TemporalChart</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html#~createChart">createChart</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html#~prepData">prepData</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html#~update">update</a></li></ul></li><li><a href="module-ResultsPane_widgets_ExportCSV.html">ResultsPane/widgets/ExportCSV</a></li><li><a href="module-ResultsPane_widgets_ExportCrashRecords.html">ResultsPane/widgets/ExportCrashRecords</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ExportCrashRecords.html#~enableSpinner">enableSpinner</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ExportCrashRecords.html#~exportRecords">exportRecords</a></li></ul></li><li><a href="module-ResultsPane_widgets_FilterSummary.html">ResultsPane/widgets/FilterSummary</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_FilterSummary.html#~formatYearFilter">formatYearFilter</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_FilterSummary.html#~removeLabels">removeLabels</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_FilterSummary.html#~update">update</a></li></ul></li><li><a href="module-ResultsPane_widgets_ResultsGrid.html">ResultsPane/widgets/ResultsGrid</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~compare_cty_code">compare_cty_code</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~compare_muni_code">compare_muni_code</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~exportCsv">exportCsv</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~removeDuplicateObjects">removeDuplicateObjects</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~removeHighlight">removeHighlight</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~resize">resize</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~show">show</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~update">update</a></li></ul></li><li><a href="module-SettingsMenu.html">SettingsMenu</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~disableClusterToggleButton">disableClusterToggleButton</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~show">show</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~startTour">startTour</a></li></ul></li><li><a href="module-SettingsMenu_widgets_BasemapToggle.html">SettingsMenu/widgets/BasemapToggle</a></li><li><a href="module-SettingsMenu_widgets_ClusterToggle.html">SettingsMenu/widgets/ClusterToggle</a></li><li><a href="module-SettingsMenu_widgets_CrashClusterSelect.html">SettingsMenu/widgets/CrashClusterSelect</a></li><li><a href="module-SettingsMenu_widgets_MenuAnnotationToggle.html">SettingsMenu/widgets/MenuAnnotationToggle</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-SettingsMenu_widgets_MenuAnnotationToggle.html#~setAnnotationMode">setAnnotationMode</a></li></ul></li><li><a href="module-SettingsMenu_widgets_SignalsTourToggle_widgets_WelcomeTour.html">SettingsMenu/widgets/SignalsTourToggle/widgets/WelcomeTour</a></li><li><a href="module-SettingsMenu_widgets_TourToggle.html">SettingsMenu/widgets/TourToggle</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-SettingsMenu_widgets_TourToggle.html#~mouseEnterHandler">mouseEnterHandler</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu_widgets_TourToggle.html#~mouseLeaveHandler">mouseLeaveHandler</a></li></ul></li><li><a href="module-SettingsMenu_widgets_UserManual.html">SettingsMenu/widgets/UserManual</a></li><li><a href="module-StatsExplorer.html">StatsExplorer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~clear">clear</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~clearChart">clearChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~clearVehicleChartDivs">clearVehicleChartDivs</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createChart">createChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createPersonsSeverityChart">createPersonsSeverityChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createSelect">createSelect</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createVehicleModelChart">createVehicleModelChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createVehiclesAttributeChart">createVehiclesAttributeChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~generateVehicleChartDivs">generateVehicleChartDivs</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~init">init</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~loading">loading</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~loadingDiv">loadingDiv</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~updateSeverityChart">updateSeverityChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~updateStatsChart">updateStatsChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~updateVehicleMakeChart">updateVehicleMakeChart</a></li></ul></li><li><a href="module-StatsPane.html">StatsPane</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~checkOpen">checkOpen</a></li><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~init">init</a></li><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~togglePane">togglePane</a></li><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~update">update</a></li></ul></li><li><a href="module-Utilities.html">Utilities</a></li><li><a href="module-urls.html">urls</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">CrashMap/widgets/MapSources/index.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import API from './../../../API';
+import urls from './../../../urls';
+import CrashGrouping from '../../widgets/CrashGrouping';
+import FeedbackForm from './../../../FeedbackForm';
+/**
+ * Contains a data dictionary of map layers used to render in the map UI.
+ * @date 2024-11-14
+ * @module CrashMap/widgets/MapSources
+ * @param {module} crashFilter The Crash Filter module.
+ * @param {module} crashMap The Crash Map module.
+ * @requires ./../../../API
+ * @requires ./../../../urls
+ * @requires ../../widgets/CrashGrouping
+ * @requires ../../widgets/CrashRecordDialog
+ * @requires ./../../../FeedbackForm
+ */
+export default function MapSources(crashFilter, crashMap) {
+    const api = new API();
+    const mapDefault = 7;
+    const countyHeatmapZoomThreshold = 10;
+    const muniHeatmapZoomThreshold = 17;
+    const baseWidth = 2;
+    const baseZoom = 7.5;
+    this.countyHeatmapZoomThreshold = countyHeatmapZoomThreshold;
+    this.muniHeatmapZoomThreshold = muniHeatmapZoomThreshold;
+
+    const equityAttributes = ['acstotpop', 'acstothh', 'peopcolorp', 'lowincpct', 'unemppct', 'lingisopct', 'lesshspct', 'under5pct', 'over64pct', 'lifeexppct'];
+
+    /**
+     * Contains the properties for each map layer in Mapbox structure.
+     * These properties are used to render the layers and it's symbology in the map.
+     * @name layerDefinitions
+     * @static
+     */
+    const layerDefinitions = {
+        county_heatmap: {
+            type: 'vector',
+            layers: [
+                {
+                    id: 'county_heatmap_layer',
+                    label: 'Crashes by County',
+                    minzoom: 0,
+                    maxzoom: countyHeatmapZoomThreshold,
+                    type: 'fill',
+                    source: 'county_heatmap',
+                    'source-layer': 'county_boundaries_of_nj_3857',
+                    'source-tiles': api.getCountyHeatmapQuery,
+                    beforeLayer: 'muni_heatmap_layer',
+                    paint: {
+                        'fill-color': '#000000',
+                        'fill-opacity': 0,
+                    },
+                    paintAttributes: {
+                        //'fill-opacity': .8
+                        'fill-opacity': [
+                            'interpolate',
+                            ['linear'],
+                            ['zoom'],
+                            // When zoom is at default, layer will be 80% transparent.
+                            mapDefault,
+                            0.765,
+                            // When zoom is at muni threshold or higher, layer will be 100% transparent.
+                            countyHeatmapZoomThreshold,
+                            0.4,
+                        ],
+                    },
+                    layout: {
+                        visibility: 'none',
+                    },
+                    click: function (feature) {
+                        return {
+                            title: feature.properties.county_label,
+                            content: `${feature.properties.crash_count.toLocaleString('en-US')} Crashes`,
+                            actions: [
+                                {
+                                    label: `Query ${feature.properties.county_label}`,
+                                    data: function () {
+                                        if (feature) {
+                                            const attributes = {
+                                                ResultType: 'COUNTY',
+                                                ResultText: feature.properties.county_label,
+                                                ResultID: feature.properties.mun_cty_co,
+                                                bounding_box: feature.properties.bounding_box,
+                                                centroid: feature.properties.centroid,
+                                            };
+                                            crashMap.omniSearch.fireCustomQuery(attributes);
+                                        }
+                                    },
+                                },
+                            ],
+                        };
+                    },
+                },
+            ],
+            legend: {
+                holder: 'county-legend-holder',
+                loading: 'county-legend-loading',
+                colorArray: ['#a1dbb2', '#fee5ad', '#faca66', '#f7a541', '#f45d4c'],
+                colorFill: ['interpolate', ['linear'], ['get', 'crash_count']],
+                countAttribute: 'crash_count',
+                layer: 'county_heatmap_layer',
+                type: 'fill',
+            },
+        },
+        muni_heatmap: {
+            type: 'vector',
+            layers: [
+                {
+                    id: 'municipal_heatmap_layer',
+                    label: 'Crashes by Municipality',
+                    minzoom: countyHeatmapZoomThreshold,
+                    maxzoom: muniHeatmapZoomThreshold,
+                    type: 'fill',
+                    source: 'muni_heatmap',
+                    'source-layer': 'municipal_boundaries_of_nj_3857',
+                    'source-tiles': api.getMuniHeatmapQuery,
+                    beforeLayer: 'clusters',
+                    paint: {
+                        'fill-color': '#000000',
+                        'fill-opacity': 0,
+                    },
+                    paintAttributes: {
+                        //'fill-opacity': .8
+                        'fill-opacity': [
+                            'interpolate',
+                            ['linear'],
+                            ['zoom'],
+                            // When zoom is at cty threshold, layer will be 80% transparent.
+                            countyHeatmapZoomThreshold,
+                            0.765,
+                            // When zoom is at crash cluster threshold or higher, layer will be 100% transparent.
+                            muniHeatmapZoomThreshold,
+                            0.4,
+                        ],
+                    },
+                    layout: {
+                        visibility: 'none',
+                    },
+                    click: function (feature) {
+                        return {
+                            title: feature.properties.mun_label,
+                            description: feature.properties.county,
+                            content: `${feature.properties.crash_count.toLocaleString('en-US')} Crashes`,
+                            actions: [
+                                {
+                                    label: `Query ${feature.properties.mun_label}`,
+                                    data: function () {
+                                        if (feature) {
+                                            const attributes = {
+                                                ResultType: 'MUNICIPALITY',
+                                                ResultText: `${feature.properties.mun_label}, ${feature.properties.county.replace(' County', '')}`,
+                                                ResultID: feature.properties.mun_cty_co + feature.properties.mun_mu,
+                                                bounding_box: feature.properties.bounding_box,
+                                                centroid: feature.properties.centroid,
+                                            };
+                                            crashMap.omniSearch.fireCustomQuery(attributes);
+                                        }
+                                    },
+                                },
+                            ],
+                        };
+                    },
+                },
+            ],
+            legend: {
+                holder: 'muni-legend-holder',
+                loading: 'muni-legend-loading',
+                colorArray: ['#a1dbb2', '#fee5ad', '#faca66', '#f7a541', '#f45d4c'],
+                colorFill: ['interpolate', ['linear'], ['get', 'crash_count']],
+                countAttribute: 'crash_count',
+                layer: 'muni_heatmap_layer',
+                type: 'fill',
+            },
+        },
+        cluster_heatmap: {
+            id: 'cluster_circles',
+            type: 'vector',
+            source: 'ard_accidents_geom_partition_new',
+            'source-layer': 'ard_accidents_geom_partition_new',
+            'source-tiles': api.getClusterHeatmapQuery,
+            label: 'Crash Clusters',
+            minzoom: muniHeatmapZoomThreshold,
+            layers: [
+                {
+                    id: 'cluster_circles',
+                    label: 'Crash Clusters',
+                    source: 'ard_accidents_geom_partition_new',
+                    'source-layer': 'ard_accidents_geom_partition_new',
+                    type: 'circle',
+                    minzoom: muniHeatmapZoomThreshold,
+                    paint: {
+                        'circle-radius': 15,
+                        'circle-color': '#5b94c6',
+                        'circle-opacity': 0.75,
+                        'circle-stroke-width': 1,
+                        'circle-stroke-color': '#FFF',
+                    },
+                    layout: {
+                        visibility: 'visible',
+                    },
+                    // beforeLayer: 'cluster-count',
+                    click: function (feature) {
+                        return {
+                            title: 'crash aggregation point',
+                            content: `${feature.properties.crash_count.toLocaleString('en-US')} Crashes`,
+                            actions: [
+                                {
+                                    label: 'View in Statistics Pane',
+                                    data: function () {
+                                        if (feature) {
+                                            // for situations where only one crash is in the cluster.
+                                            // this is a little complicated because the year is necessary to find the crash id
+                                            // in a timely manner, hence shenanigans.
+
+                                            // if (feature.properties.crash_count === 1) {
+                                            //     let crashID = JSON.parse(feature.properties.crash_array)[0];
+                                            //     let currentYears = crashFilter.getSelectedFilters().year.split(',');
+                                            //     let crashIDComponents = crashID.split('-');
+                                            //     let filteredYears = currentYears.filter((year) => crashIDComponents.indexOf(year) >= 0);
+                                            //     let crashYear = filteredYears.filter((c, index) => {
+                                            //         return filteredYears.indexOf(c) === index;
+                                            //     })[0];
+
+                                            //     new CrashRecordDialog(crashID, crashYear, crashMap.credentials);
+                                            // } else if (feature.properties.sri_array) {
+                                            //     new CrashGrouping(crashFilter, JSON.parse(feature.properties.crash_array), JSON.parse(feature.properties.sri_array), crashMap);
+                                            // } else {
+                                            //     new CrashGrouping(crashFilter, JSON.parse(feature.properties.crash_array), undefined, crashMap);
+                                            // }
+
+                                            const additionalFilters = {
+                                                crash_array: JSON.parse(feature.properties.crash_array)
+                                            };
+
+                                            if (feature.properties.sri_array) {
+                                                new CrashGrouping(crashFilter, JSON.parse(feature.properties.crash_array), JSON.parse(feature.properties.sri_array), crashMap, additionalFilters, feature);
+                                            } else {
+                                                new CrashGrouping(crashFilter, JSON.parse(feature.properties.crash_array), undefined, crashMap, additionalFilters, feature);
+                                            }
+                                            
+                                            crashMap.StatsPane.update(additionalFilters);
+                                        }
+                                    },
+                                },
+                                {
+                                    label: 'Submit Feedback',
+                                    data: function () {
+                                        new FeedbackForm('Crash Aggregation Point', crashFilter, crashMap, feature.properties.crash_array);
+                                    },
+                                },
+                                {
+                                    label: 'Street View',
+                                    data: function () {
+                                        if (feature) {
+                                            const dirDegrees = 0; // North
+                                            const button = document.createElement('a');
+
+                                            button.href = `https://maps.google.com/maps?q=&amp;layer=c&amp;cbll=${feature.geometry.coordinates[1]},${feature.geometry.coordinates[0]}&amp;cbp=12,${dirDegrees},0,0,0`;
+                                            button.target = '_blank';
+                                            button.click();
+                                        }
+                                    },
+                                },
+                            ],
+                        };
+                    },
+                    help: {
+                        id: 'clusterInfo',
+                        className: 'tooltipIconSmall statisticsTip',
+                        text: 'The points are clustered by a predefined radius. &lt;a style="color: lightgrey" target="_blank" href="https://docs.mapbox.com/mapbox-gl-js/style-spec/sources/#geojson-cluster">source&lt;/a>',
+                    },
+                },
+                {
+                    id: 'cluster_count',
+                    label: 'Cluster Count',
+                    type: 'symbol',
+                    source: 'ard_accidents_geom_partition_new',
+                    'source-layer': 'ard_accidents_geom_partition_new',
+                    minzoom: muniHeatmapZoomThreshold,
+                    layout: {
+                        visibility: 'visible',
+                        //     'text-field': ['format', ['/', ['get', 'crash_count'], 1000], { 'font-scale': 0.8 }],
+                        //     // 'text-field': ['/', ['get', 'crash_count'], 1000],
+                        //     'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+                        //     'text-size': 14
+                        'text-field': '{crash_count_label}',
+                        'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+                        'text-size': 14,
+                    },
+                    // layout: {
+                    //     'text-field': ['format', ['upcase', ['get', 'crash_count']], { 'font-scale': 0.8 }],
+                    //     'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold']
+                    // }
+                },
+            ],
+        },
+        ard_accidents_heatmap: {
+            name: 'ard_accidents_heatmap',
+            type: 'geojson',
+            layers: [
+                {
+                    id: 'point-heat',
+                    minzoom: muniHeatmapZoomThreshold,
+                    type: 'heatmap',
+                    sourceheatmap: 'ard_accidents_heatmap',
+                    paint: {
+                        // increase weight as diameter breast height increases
+                        'heatmap-weight': {
+                            property: 'dbh',
+                            type: 'exponential',
+                            stops: [
+                                [1, 0],
+                                [100, 1],
+                            ],
+                        },
+                        // increase intensity as zoom level increases
+                        'heatmap-intensity': {
+                            stops: [
+                                [11, 1],
+                                [12, 3],
+                            ],
+                        },
+                        // assign color values be applied to points depending on their density
+                        'heatmap-color': [
+                            'interpolate',
+                            ['linear'],
+                            ['heatmap-density'],
+                            0,
+                            'rgba(37, 52, 148, 0)',
+                            0.2,
+                            'rgba(44, 127, 184, 1)',
+                            0.4,
+                            'rgba(65, 182, 196, 1)',
+                            0.5,
+                            'rgba(127, 205, 187, 1)',
+                            0.6,
+                            'rgba(199, 233, 180, 1)',
+                            1,
+                            'rgba(255, 255, 204, 1)',
+                        ],
+                        // increase radius as zoom increases
+                        'heatmap-radius': {
+                            stops: [
+                                [9, 3],
+                                [12, 25],
+                            ],
+                        },
+                        // decrease opacity to transition into the circle layer
+                        'heatmap-opacity': {
+                            default: 1,
+                            stops: [[11, 1]],
+                        },
+                    },
+                },
+            ],
+        },
+        sri: {
+            id: 'sri_crashes_points',
+            name: 'sri',
+            label: 'Crashes Clustered by MP',
+            type: 'geojson',
+            sourceName: 'sri',
+            type: 'geojson',
+            // clusterRadius: 80, // Radius of each cluster when clustering points (defaults to 50)
+            // cluster: true,
+            layers: [
+                {
+                    id: 'sri_crashes_points',
+                    type: 'circle',
+                    source: 'sri',
+                    paint: {
+                        // 'circle-color': '#a1dbb2',
+                        'circle-radius': ['step', ['zoom'], 3, 14, 5, 15.5, 10],
+                        'circle-stroke-width': ['step', ['zoom'], 1, 14, 1, 15.5, 2],
+                        'circle-stroke-color': '#707575',
+                    },
+                    layout: {
+                        visibility: 'visible',
+                    },
+                    click: function (feature) {
+                        if (feature) {
+                            const sri = feature.properties.calc_sri;
+                            const mp = feature.properties.calc_milepost;
+                            const query = api.GetAccidentsBySriQuery(sri, mp, map.filterParameters);
+
+                            function getSRICrashData(query) {
+                                return fetch(query).then(function (response) {
+                                    return response.json();
+                                });
+                            }
+
+                            return getSRICrashData(query).then(function (crashData) {
+                                // return {
+                                //     content: new CrashDetails(
+                                //         map,
+                                //         crashData.features.map((feature) => feature.properties)
+                                //     ).domNode
+                                // };
+                            });
+                        }
+                    },
+                },
+                {
+                    id: 'sri_mp_label',
+                    type: 'symbol',
+                    source: 'sri',
+                    layout: {
+                        visibility: 'visible',
+                        'text-field': '{calc_milepost}',
+                        'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+                        'text-size': 12,
+                        'text-anchor': 'top',
+                        'text-offset': [0, -3],
+                        // 'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+                        // 'text-radial-offset': 3,
+                    },
+                    paint: {
+                        'text-halo-width': 2,
+                    },
+                },
+                {
+                    id: 'sri_crash_label',
+                    type: 'symbol',
+                    source: 'sri',
+                    layout: {
+                        visibility: 'visible',
+                        'text-field': '{crash_count}',
+                        'text-font': ['DIN Offc Pro Medium', 'Arial Unicode MS Bold'],
+                        'text-size': ['step', ['zoom'], 0, 14, 7, 15.5, 10],
+                    },
+                },
+            ],
+            legend: {
+                holder: 'sri-legend-holder',
+                loading: 'sri-legend-loading',
+                colorArray: ['#a1dbb2', '#fee5ad', '#faca66', '#f7a541', '#f45d4c'],
+                'circle-color': ['interpolate', ['linear'], ['get', 'crash_count']],
+                countAttribute: 'crash_count',
+                layer: 'sri_crashes_points',
+                type: 'circle',
+            },
+        },
+        sri_histogram: {
+            name: 'sri histogram',
+            label: 'Crashes binned by MP',
+            source: 'route_histogram_source',
+            'source-layer': 'segment_polygon',
+            type: 'vector',
+            layers: [
+                {
+                    id: 'route_histogram_layer',
+                    label: 'Crashes binned by MP',
+                    type: 'fill-extrusion',
+                    source: 'route_histogram_source',
+                    'source-layer': 'segment_polygon',
+                    'source-tiles': api.getSRIHistogramQuery,
+                    layout: {
+                        visibility: 'visible',
+                    },
+                    paint: {
+                        'fill-extrusion-base': 20.1,
+                    },
+                    click: function (feature) {
+                        return {
+                            title: 'Milepost Information',
+                            description:
+                                'These numbers refer to the specific milepost range as noted below. For further information/analysis click on crash details to bring up the crash grouping dialog.',
+                            table: feature.properties,
+                            actions: [
+                                {
+                                    label: 'View in Statistics Pane',
+                                    data: function () {
+                                        if (feature) {
+                                            new CrashGrouping(crashFilter, JSON.parse(feature.properties.crash_array), undefined, crashMap);
+                                        }
+                                    },
+                                },
+                                {
+                                    label: 'Submit Feedback',
+                                    data: function () {
+                                        new FeedbackForm('Milepost Information', crashFilter, crashMap, feature.properties.mp);
+                                    },
+                                },
+                                {
+                                    label: 'Street View',
+                                    data: function () {
+                                        if (feature) {
+                                            const dirDegrees = 0; // North
+                                            const button = document.createElement('a');
+
+                                            button.href = `https://maps.google.com/maps?q=&amp;layer=c&amp;cbll=${feature.properties.latitude},${feature.properties.longitude}&amp;cbp=12,${dirDegrees},0,0,0`;
+                                            button.target = '_blank';
+                                            button.click();
+                                        }
+                                    },
+                                },
+                            ],
+                        };
+                    },
+                },
+                // {
+                //     id: 'route_histogram_highlight_layer',
+                //     type: 'fill-extrusion',
+                //     source: 'route_histogram_source',
+                //     'source-layer': 'segment_polygon',
+                //     'source-tiles': api.getSRIHistogramQuery,
+                //     layout: {
+                //         visibility: 'visible'
+                //     },
+                //     paint: {
+                //         'fill-extrusion-base': 20.1,
+                //         'fill-extrusion-color': 'blue'
+                //     },
+                //     filter: ['in', 'mp', '']
+                // },
+                {
+                    id: 'route_unmatched_layer',
+                    type: 'fill-extrusion',
+                    source: 'route_unmatched_source',
+                    'source-layer': 'route_municipal_buffer',
+                    'source-tiles': api.getSRIUnderlayQuery,
+                    layout: {
+                        visibility: 'visible',
+                    },
+                    paint: {
+                        'fill-extrusion-height': 20,
+                        'fill-extrusion-color': 'rgb(100,100,100)',
+                    },
+                    click: function (feature) {
+                        let actions;
+
+                        if (feature.properties.crash_array) {
+                            actions = [
+                                {
+                                    label: 'View in Statistics Pane',
+                                    data: function () {
+                                        if (feature) {
+                                            new CrashGrouping(crashFilter, JSON.parse(feature.properties.crash_array), undefined, crashMap);
+                                        }
+                                    },
+                                },
+                                {
+                                    label: 'Submit Feedback',
+                                    data: function () {
+                                        new FeedbackForm('Crash Aggregation Point', crashFilter, crashMap, feature.properties.crash_array);
+                                    },
+                                },
+                            ];
+                        } else {
+                            actions = [
+                                {
+                                    label: 'Submit Feedback',
+                                    data: function () {
+                                        new FeedbackForm('Crash Aggregation Point', crashFilter, crashMap);
+                                    },
+                                },
+                            ];
+                        }
+
+                        return {
+                            title: 'Unmatched Crashes By Municipality',
+                            description:
+                                'These numbers refer to the crashes that are coded to this SRI, and fall into the municipal boundaries noted. For further information/analysis click on crash details to bring up the crash grouping dialog.',
+                            table: feature.properties,
+                            actions: actions,
+                        };
+                    },
+                },
+                {
+                    id: 'sri_crash_label',
+                    type: 'symbol',
+                    source: 'route_histogram_source',
+                    'source-layer': 'segment_polygon',
+                    layout: {
+                        visibility: 'visible',
+                        'text-field': '{mp}\n({crash_count})',
+                        'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+                        'text-offset': [0, 1.0],
+                        'text-size': 14,
+                        'text-anchor': 'top',
+                        'text-allow-overlap': false,
+                    },
+                    paint: {
+                        'text-halo-color': 'rgba(255,255,255,0.5)',
+                        'text-halo-width': 3,
+                    },
+                },
+            ],
+            legend: {
+                holder: 'sri-legend-holder',
+                loading: 'sri-legend-loading',
+                colorArray: ['#a1dbb2', '#fee5ad', '#faca66', '#f7a541', '#f45d4c'],
+                'circle-color': ['interpolate', ['linear'], ['get', 'crash_count']],
+                countAttribute: 'crash_count',
+                layer: 'sri_crashes_points',
+                type: 'circle',
+            },
+        },
+        network_heatmap: {
+            id: 'crash_segments',
+            type: 'vector',
+            source: 'network_heatmap_source',
+            'source-layer': 'ard_accidents_geom_partition_new',
+            'source-tiles': api.getCrashSegmentsHeatmapQuery,
+            // maxzoom: muniHeatmapZoomThreshold,
+            relatedLayers: ['symbol-layer'],
+            layers: [
+                {
+                    id: 'crash_segments', // Layer ID
+                    label: 'Crashes by Roadway Segment',
+                    type: 'line',
+                    source: 'network_heatmap_source',
+                    'source-layer': 'crash_segments',
+                    'source-tiles': api.getCrashSegmentsHeatmapQuery,
+                    slot: 'middle',
+                    maxzoom: muniHeatmapZoomThreshold,
+                    tooltip: {
+                        id: 'crash_segments_tip',
+                        icon: 'ri-error-warning-fill',
+                        content: `The Roadway Segment layer maps crashes by SRI and milepost if avaliable. Crash clusters map crashes based on latitude and longitude 
+                            and will show crashes in public areas including parking lots and local roads.`,
+                        placement: 'right'
+                    },
+                    paint: {
+                        'line-width': {
+                            stops: [
+                                [7, 2],
+                                [8, 2],
+                                [9, 3],
+                                [10, 3],
+                                [11, 3.5],
+                                [13, 8]
+                            ],
+                        }
+                    },
+                    layout: {
+                        visibility: 'visible',
+                        'line-sort-key': ['get', 'crash_count'],
+                    },
+                    click: function (feature) {
+                        // console.log(feature);
+                        // const directionText = codeToDirection(feature.properties.segment_directions); // transcribe directions
+
+                        return {
+                            title: `SRI: ${feature.properties.sri} (Milepost ${feature.properties.milepost_range_text})`,
+                            // description:
+                            //     'These numbers refer to the specific milepost range as noted below. For further information/analysis click on crash details to bring up the crash grouping dialog.',
+                            table: {
+                                'Crash Count': feature.properties.crash_count,
+                                Fatal: feature.properties.fatal,
+                                Incapacitated: feature.properties.incapacitated,
+                                'Moderate Injury': feature.properties.moderate_injury,
+                                'Complain of Pain': feature.properties.complaint_of_pain,
+                                'Property Damage': feature.properties.property_damage,
+                            },
+                            actions: [
+                                {
+                                    label: 'View in Statistics Pane',
+                                    id: 'stats-pane-button',
+                                    data: function () {
+                                        if (feature) {
+                                            const additionalFilters = {
+                                                sri: feature.properties.sri,
+                                                mp_start: feature.properties.min_mp,
+                                                mp_end: feature.properties.max_mp,
+                                                veh_one_travel_dir_code: feature.properties.segment_directions,
+                                            };
+                                            new CrashGrouping(crashFilter, undefined, undefined, crashMap, additionalFilters, feature);
+                                            crashMap.StatsPane.update(additionalFilters);                                        
+                                        }
+                                    },
+                                },
+                                {
+                                    label: 'Submit Feedback',
+                                    data: function () {
+                                        new FeedbackForm('Segment Heatmap', crashFilter, crashMap, `${feature.properties.sri} (Milepost ${feature.properties.milepost_range_text})`);
+                                    },
+                                },
+                            ],
+                        };
+                    },
+                },
+                {
+                    id: 'symbol-layer',
+                    type: 'symbol',
+                    source: 'network_heatmap_source',
+                    'source-layer': 'crash_segments',
+                    slot: 'middle',
+                    maxzoom: muniHeatmapZoomThreshold,
+                    layout: {
+                        'text-field': ['case', ['get', 'primary_travel'], '►', '◄'],
+                        'text-size': 10,
+                        'text-allow-overlap': true,
+                        'symbol-placement': 'line',
+                        'symbol-spacing': 10,
+                        'text-rotation-alignment': 'map',
+                        'text-keep-upright': false,
+                        'text-anchor': 'center',
+                    },
+                    paint: {
+                        'text-color': 'white',
+                        'text-halo-color': 'black',
+                        'text-halo-width': 1,
+                    },
+                }
+            ],
+            legend: {
+                holder: 'segment-heatmap-legend-holder',
+                loading: 'segment-heatmap-loading',
+                colorArray: ['#a1dbb2', '#fee5ad', '#faca66', '#f7a541', '#f45d4c'],
+                colorFill: ['interpolate', ['linear'], ['get', 'crash_count']],
+                countAttribute: 'crash_count',
+                layer: 'crash_segments',
+                type: 'fill',
+            },
+        }
+    };
+
+    /**
+     * A data dictonary of static layers to be added to the map UI.
+     * @name overlayLayers
+     * @static
+     * @date 2024-11-14
+     */
+    const overlayLayers = {
+        equity_layer: {
+            id: 'equity_layer',
+            label: 'EJ Screen Socioeconomic Layer (2023)',
+            // 'source-tiles': 'http://127.0.0.1:50000/v1/mvt/ejscreen_2023/{z}/{x}/{y}?geom_column=geom&amp;columns=lowincpct',
+            'source-tiles': api.getEquityLayerQuery,
+            layers: [
+                {
+                    id: 'equity_layer', // Layer ID
+                    type: 'fill',
+                    beforeLayer: 'crash_segments',
+                    source: 'equity_layer', // ID of the tile source created above
+                    'source-layer': 'equity_layer',
+                    label: 'Demographic Index Percentage',
+                    paint: {
+                        'fill-color': ['step', ['get', 'demogidx_2'], '#eceded', 0.1, '#e1e2e2', 0.2, '#d5d6d6', 0.3, '#cacbcb', 0.4, '#fafbdb', 0.5, '#fae6bc', 0.6, '#e2b0b0'],
+                        'fill-opacity': 0.8,
+                        'fill-outline-color': 'rgba(0, 0, 0, 0.375)',
+                    },
+                    legendEntries: [
+                        { color: '#e2b0b0', label: '&amp;#8805; 60%' },
+                        { color: '#fae6bc', label: '&lt; 60%' },
+                        { color: '#fafbdb', label: '&lt; 50%' },
+                        { color: '#cacbcb', label: '&lt; 40%' },
+                        { color: '#d5d6d6', label: '&lt; 30%' },
+                        { color: '#e1e2e2', label: '&lt; 20%' },
+                        { color: '#eceded', label: '&lt; 10%' },
+                    ],
+                    click: function (feature) {
+                        return {
+                            title: 'EJ Screen Socioeconomic Information (2023)',
+                            description: `Socioeconomic data by census block conducted by the &lt;a href='https://www.epa.gov/ejscreen' target="_blank" rel="noopener noreferrer">U.S. Environmental Protection Agency&lt;/a>.`,
+                            table: feature.properties,
+                        };
+                    },
+                },
+            ],
+        },
+    };
+
+    /**
+     * A data dictonary of highlighting layers that are used to highlight features on the map.
+     * @name highlightLayerSource
+     * @static
+     * @date 2024-11-14
+     */
+    const highlightLayerSource = {
+        highlight_source: {
+            type: 'geojson',
+            data: {
+                type: 'FeatureCollection',
+                features: [],
+            },
+        },
+        layers: [
+            {
+                id: 'cluster-outline',
+                type: 'circle',
+                source: 'highlight_source',
+                paint: {
+                    'circle-radius': 15,
+                    'circle-opacity': 0,
+                    'circle-stroke-width': 4,
+                    'circle-stroke-color': '#0080ff',
+                },
+                filter: ['==', '$type', 'Point'],
+            },
+            {
+                id: 'line-outline',
+                type: 'line',
+                source: 'highlight_source',
+                paint: {
+                    'line-color': '#0080ff',
+                    'line-width': 14,
+                    'line-opacity': 0.75,
+                    'line-gap-width': {
+                        type: 'exponential',
+                        base: 1.25,
+                        stops: [
+                            [0, baseWidth * Math.pow(1.25, 0 - baseZoom)],
+                            [24, baseWidth * Math.pow(1.25, 20 - baseZoom)],
+                        ],
+                    },
+                },
+                layout: {
+                    'line-cap': 'round',
+                    'line-join': 'round',
+                },
+                filter: ['==', '$type', 'LineString'],
+            },
+            {
+                id: 'polygon-fill',
+                type: 'fill',
+                source: 'highlight_source', // reference the data source
+                layout: {},
+                paint: {
+                    'fill-color': '#0080ff', // blue color fill
+                    'fill-opacity': 0.5,
+                },
+                filter: ['!=', '$type', 'LineString'],
+            },
+            {
+                id: 'polygon-outline',
+                type: 'line',
+                source: 'highlight_source',
+                layout: {},
+                paint: {
+                    'line-color': '#000',
+                    'line-width': 3,
+                },
+                filter: ['!=', '$type', 'LineString'],
+            },
+        ],
+    };
+
+    /**
+     * A data dictonary of jurisdiction boundary layers.
+     * @name jurisdictionLayerDefinitions
+     * @static
+     * @date 2024-11-14
+     */
+    this.jurisdictionLayerDefinitions = {
+        county: {
+            id: 'county_outline_layer',
+            type: 'line',
+            source: 'county_boundaries',
+            'source-layer': 'county_boundaries_of_nj_3857',
+            tileURL: urls.countyJurisdictionsStaticURL,
+            layout: {
+                visibility: 'visible',
+            },
+            paint: {
+                'line-color': 'rgba(0, 0, 0, 0.375)',
+                'line-width': [
+                    'interpolate',
+                    ['linear'],
+                    ['zoom'],
+                    // When zoom is at cty threshold, lines will be 2px.
+                    1,
+                    0,
+                    // When zoom is at crash cluster threshold or higher, lines will be thinner.
+                    countyHeatmapZoomThreshold,
+                    1,
+                ],
+            },
+            minzoom: 0,
+            maxzoom: countyHeatmapZoomThreshold + 1,
+            click: function (feature) {
+                return {
+                    title: 'County Info',
+                    description: 'Municipal information taken from &lt;a href="https://gisdata-njdep.opendata.arcgis.com/">NJDEP Open Data.&lt;/a>',
+                    table: feature.properties,
+                };
+            },
+        },
+        municipality: {
+            id: 'municipality_outline_layer',
+            type: 'line',
+            source: 'municipality_boundaries',
+            'source-layer': 'municipal_boundaries_of_nj_3857',
+            tileURL: urls.municipalJurisdictionsStaticURL,
+            layout: {
+                visibility: 'visible',
+            },
+            paint: {
+                'line-color': 'rgba(0, 0, 0, 0.375)',
+                'line-width': [
+                    'interpolate',
+                    ['linear'],
+                    ['zoom'],
+                    // When zoom is at cty threshold, lines will be 2px.
+                    countyHeatmapZoomThreshold,
+                    1,
+                    // When zoom is at crash cluster threshold or higher, lines will be thinner.
+                    muniHeatmapZoomThreshold,
+                    2,
+                ],
+            },
+            minzoom: countyHeatmapZoomThreshold,
+            // maxzoom: muniHeatmapZoomThreshold,
+            click: function (feature) {
+                return {
+                    title: 'Municipal Info',
+                    description: 'County information taken from &lt;a href="https://gisdata-njdep.opendata.arcgis.com/">NJDEP Open Data.&lt;/a>',
+                    table: feature.properties,
+                };
+            },
+        },
+    };
+
+    /**
+     * Gets all overlay layers and their attributes.
+     * @date 2024-11-14
+     * @function getOverlayLayerDefinitions
+     * @returns {object} An object containing overlay layers and their attributes.
+     */
+    this.getOverlayLayerDefinitions = function () {
+        return overlayLayers;
+    };
+
+    /**
+     * Gets a layer's attributes based on the source name.
+     * @date 2024-11-14
+     * @function getLayerGroupData
+     * @param {string} sourceString The source name of the target layer.
+     * @returns {object} An object containing the layer's attribute.
+     */
+    this.getLayerGroupData = function (sourceString) {
+        return layerDefinitions[sourceString];
+    };
+
+    /**
+     * Gets a layer's attributes based on the layer name.
+     * @date 2024-11-14
+     * @function getMapLayerData
+     * @param {string} layerName
+     * @returns {object} An object containing the layer's attribute.
+     */
+    this.getMapLayerData = function (layerName) {
+        let layerData;
+
+        function eachRecursive(layers, layerName) {
+            layers.map((layer) => {
+                if (layer.layers) {
+                    eachRecursive(Object.values(layer.layers), layerName);
+                } else {
+                    if (layer.id === layerName) {
+                        layerData = layer;
+                    }
+                }
+            });
+        }
+
+        eachRecursive(Object.values(Object.assign(overlayLayers, layerDefinitions, this.jurisdictionLayerDefinitions)), layerName);
+
+        return layerData;
+    };
+
+    /**
+     * Gets all layers for highlighting features on the map.
+     * @date 2024-11-14
+     * @function getHighlightLayerSource
+     * @returns {object} An object containing all attributes for each hightlight layer.
+     */
+    this.getHighlightLayerSource = function () {
+        return highlightLayerSource;
+    };
+
+    /**
+     * Gets all overlay layers.
+     * @date 2024-11-14
+     * @function getHighlightLayerSource
+     * @returns {object} An object containing all attributes for each hightlight layer.
+     */
+    this.getOverlayLayer = function (sourceString) {
+        return overlayLayers[sourceString];
+    };
+
+    function codeToDirection(codes) {
+        const legend = {
+            '01': 'North',
+            '02': 'East',
+            '03': 'South',
+            '04': 'West',
+        };
+
+        return codes
+            .split(',')
+            .map((code) => legend[code.trim()])
+            .join(', ');
+    }
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.4</a> on Tue Dec 17 2024 10:18:34 GMT-0500 (Eastern Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>

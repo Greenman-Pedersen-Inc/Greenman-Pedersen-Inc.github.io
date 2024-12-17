@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>CrashMap/widgets/CrashSegmentsHeatmap/index.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h2><a href="https://github.com/Greenman-Pedersen-Inc/voyager.webpack.vehicle" target="_blank" class="menu-item" id="repo_link" >Github Repository</a></h2><h3>Modules</h3><ul><li><a href="module-API.html">API</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-API.html#.getCrashSegmentsHeatmapQuery">getCrashSegmentsHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#.getNetworkSegmentData">getNetworkSegmentData</a></li><li data-type='method' style='display: none;'><a href="module-API.html#.getStateBreakdown">getStateBreakdown</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~CreateDetailWhereClause">CreateDetailWhereClause</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~CreateSearchParameters">CreateSearchParameters</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~CreateWhereClause">CreateWhereClause</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetAccidentsBySriQuery">GetAccidentsBySriQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetClusterHeatmapQuery">GetClusterHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetCountyHeatmapQuery">GetCountyHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetCrashDetailsQuery">GetCrashDetailsQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetCrashesQuery">GetCrashesQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetMuniHeatmapQuery">GetMuniHeatmapQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetPersonsQuery">GetPersonsQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~GetSriQuery">GetSriQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~addUserQueries">addUserQueries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~deleteUserQueries">deleteUserQueries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~errorHandler">errorHandler</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCountyBoundaries">getCountyBoundaries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCountyBoundingBoxQuery">getCountyBoundingBoxQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCrash">getCrash</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCrashDetailQuery">getCrashDetailQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getCrashList">getCrashList</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getData">getData</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getExportRecords">getExportRecords</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getExportRecordsByID">getExportRecordsByID</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getFeedbackFormQuery">getFeedbackFormQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getFullName">getFullName</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getGraphDataQuery">getGraphDataQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getLayerAttributes">getLayerAttributes</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getMPO">getMPO</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getModules">getModules</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getMunicipalBoundingBoxQuery">getMunicipalBoundingBoxQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getMunicipalityBoundaries">getMunicipalityBoundaries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getNotifications">getNotifications</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getRouteCrashData">getRouteCrashData</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSRIBreakdown">getSRIBreakdown</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSRIHistogramQuery">getSRIHistogramQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSRIUnderlayQuery">getSRIUnderlayQuery</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getSessionInfo">getSessionInfo</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getTable">getTable</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getTopLocations">getTopLocations</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~getUserQueries">getUserQueries</a></li><li data-type='method' style='display: none;'><a href="module-API.html#~postData">postData</a></li></ul></li><li><a href="module-AlertBox.html">AlertBox</a></li><li><a href="module-CodeTranslator.html">CodeTranslator</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertCodeDescription">convertCodeDescription</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertFeature">convertFeature</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertFeatureObjectValues">convertFeatureObjectValues</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~convertTableCodes">convertTableCodes</a></li><li data-type='method' style='display: none;'><a href="module-CodeTranslator.html#~resolveFieldAlias">resolveFieldAlias</a></li></ul></li><li><a href="module-CrashFilter.html">CrashFilter</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~clearSearchHighlights">clearSearchHighlights</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~getSelectedFilters">getSelectedFilters</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~getSelectedJurisdictions">getSelectedJurisdictions</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~getSignalsSelectedFilters">getSignalsSelectedFilters</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~searchFilters">searchFilters</a></li><li data-type='method' style='display: none;'><a href="module-CrashFilter.html#~setFilters">setFilters</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashClusters.html">CrashMap/widgets/CrashClusters</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~addToMap">addToMap</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~setMinZoom">setMinZoom</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashClusters.html#~updateSourceData">updateSourceData</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashGrouping.html">CrashMap/widgets/CrashGrouping</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping.html#~CrashGrouping">CrashGrouping</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping.html#~addSelectValues">addSelectValues</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping.html#~removePriorWindows">removePriorWindows</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator.html">CrashMap/widgets/CrashGrouping/widgets/BreakdownComparator</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator_widgets_BreakdownChart.html">CrashMap/widgets/CrashGrouping/widgets/BreakdownComparator/widgets/BreakdownChart</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashGrouping_widgets_BreakdownComparator_widgets_BreakdownChart.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_CrashRecordDialog.html">CrashMap/widgets/CrashRecordDialog</a></li><li><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html">CrashMap/widgets/CrashSegmentsHeatmap</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~addToMap">addToMap</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~clearVisuals">clearVisuals</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~highlightFeature">highlightFeature</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_CrashSegmentsHeatmap.html#~updateSourceData">updateSourceData</a></li></ul></li><li><a href="module-CrashMap_widgets_HighlightFeature.html">CrashMap/widgets/HighlightFeature</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_HighlightFeature.html#~clearHighlight">clearHighlight</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_HighlightFeature.html#~makePointData">makePointData</a></li></ul></li><li><a href="module-CrashMap_widgets_JursidictionBoundaries.html">CrashMap/widgets/JursidictionBoundaries</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_JursidictionBoundaries.html#~addToMap">addToMap</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_JursidictionBoundaries.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_Legend.html">CrashMap/widgets/Legend</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~addLayerGroup">addLayerGroup</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~checkXPosition">checkXPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~checkYPosition">checkYPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~clear">clear</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~getPosition">getPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~resetYPosition">resetYPosition</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~show">show</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_Legend.html#~update">update</a></li></ul></li><li><a href="module-CrashMap_widgets_LegendCard.html">CrashMap/widgets/LegendCard</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCard.html#~populateCardEntries">populateCardEntries</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCard.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCard.html#~updateVisibility">updateVisibility</a></li></ul></li><li><a href="module-CrashMap_widgets_LegendCardGroup.html">CrashMap/widgets/LegendCardGroup</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCardGroup.html#~createLegendScheme">createLegendScheme</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_LegendCardGroup.html#~updateVisibility">updateVisibility</a></li></ul></li><li><a href="module-CrashMap_widgets_MapSources.html">CrashMap/widgets/MapSources</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getHighlightLayerSource">getHighlightLayerSource</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getHighlightLayerSource">getHighlightLayerSource</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getLayerGroupData">getLayerGroupData</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getMapLayerData">getMapLayerData</a></li><li data-type='method' style='display: none;'><a href="module-CrashMap_widgets_MapSources.html#~getOverlayLayerDefinitions">getOverlayLayerDefinitions</a></li></ul></li><li><a href="module-CrashMap_widgets_Screenshot.html">CrashMap/widgets/Screenshot</a></li><li><a href="module-FeedbackForm.html">FeedbackForm</a></li><li><a href="module-FilterMenu.html">FilterMenu</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~clearCheckBoxSpinners">clearCheckBoxSpinners</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~isLoading">isLoading</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu.html#~show">show</a></li></ul></li><li><a href="module-FilterMenu_widgets_CheckboxFilter.html">FilterMenu/widgets/CheckboxFilter</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~clearTable">clearTable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter.html#~selectEntireTable">selectEntireTable</a></li></ul></li><li><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html">FilterMenu/widgets/CheckboxFilter/widgets/CheckBoxRow</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html#~check">check</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html#~disable">disable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_CheckboxFilter_widgets_CheckBoxRow.html#~uncheck">uncheck</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector.html">FilterMenu/widgets/DateSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector.html#~show">show</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_ApplyChangesSelector.html">FilterMenu/widgets/DateSelector/widgets/ApplyChangesSelector</a></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html">FilterMenu/widgets/DateSelector/widgets/DateRangeSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~clearDateRangeSelection">clearDateRangeSelection</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_DateRangeSelector.html#~returnRange">returnRange</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html">FilterMenu/widgets/DateSelector/widgets/MonthSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~clearMonthSelection">clearMonthSelection</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~highlightMonthsByValues">highlightMonthsByValues</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_MonthSelector.html#~setFilter">setFilter</a></li></ul></li><li><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html">FilterMenu/widgets/DateSelector/widgets/YearSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~clearYearSelection">clearYearSelection</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~highlightYearsByValues">highlightYearsByValues</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_DateSelector_widgets_YearSelector.html#~setFilter">setFilter</a></li></ul></li><li><a href="module-FilterMenu_widgets_LocationFilter_widgets_ApplyChangesSelector.html">FilterMenu/widgets/LocationFilter/widgets/ApplyChangesSelector</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_LocationFilter_widgets_ApplyChangesSelector.html#~error">error</a></li></ul></li><li><a href="module-FilterMenu_widgets_LocationFilter_widgets_RadioBoxRow.html">FilterMenu/widgets/LocationFilter/widgets/RadioBoxRow</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_LocationFilter_widgets_RadioBoxRow.html#~reset">reset</a></li></ul></li><li><a href="module-FilterMenu_widgets_MultivehicleFilter.html">FilterMenu/widgets/MultivehicleFilter</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~checkFilterField">checkFilterField</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~getDescriptionSelections">getDescriptionSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~getSelections">getSelections</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter.html#~show">show</a></li></ul></li><li><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_ApplyChangesSelector.html">FilterMenu/widgets/MultivehicleFilter/widgets/ApplyChangesSelector</a></li><li><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html">FilterMenu/widgets/MultivehicleFilter/widgets/SelectDropDown</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~disable">disable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~enable">enable</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-FilterMenu_widgets_MultivehicleFilter_widgets_SelectDropDown.html#~update">update</a></li></ul></li><li><a href="module-FilterSearch.html">FilterSearch</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-FilterSearch.html#~clear">clear</a></li><li data-type='method' style='display: none;'><a href="module-FilterSearch.html#~clearSearchHighlights">clearSearchHighlights</a></li></ul></li><li><a href="module-HomeButton.html">HomeButton</a></li><li><a href="module-Modal.html">Modal</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-Modal.html#~errorHandler">errorHandler</a></li><li data-type='method' style='display: none;'><a href="module-Modal.html#~evaluateZoomVisibility">evaluateZoomVisibility</a></li><li data-type='method' style='display: none;'><a href="module-Modal.html#~remove">remove</a></li><li data-type='method' style='display: none;'><a href="module-Modal.html#~show">show</a></li></ul></li><li></li><li><a href="module-MoveablePopup.html">MoveablePopup</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-MoveablePopup.html#~checkXPosition">checkXPosition</a></li><li data-type='method' style='display: none;'><a href="module-MoveablePopup.html#~checkYPosition">checkYPosition</a></li></ul></li><li><a href="module-OmniSearch.html">OmniSearch</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~fireCustomQuery">fireCustomQuery</a></li><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~fireCustomQuery">fireCustomQuery</a></li><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-OmniSearch.html#~isSearchFilterButtonToggled">isSearchFilterButtonToggled</a></li></ul></li><li><a href="module-OmniSearch_widgets_OmniResult.html">OmniSearch/widgets/OmniResult</a></li><li><a href="module-OmniSearch_widgets_SearchFilterButton.html">OmniSearch/widgets/SearchFilterButton</a></li><li><a href="module-Popup.html">Popup</a></li><li><a href="module-Popup_widgets_PopupGrid.html">Popup/widgets/PopupGrid</a></li><li><a href="module-RadioBoxTable.html">RadioBoxTable</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-RadioBoxTable.html#~reset">reset</a></li><li data-type='method' style='display: none;'><a href="module-RadioBoxTable.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-RadioBoxTable.html#~updateSelection">updateSelection</a></li></ul></li><li><a href="module-ResultsPane.html">ResultsPane</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane.html#~resizeResultsTable">resizeResultsTable</a></li></ul></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartOptions.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/ChartOptions</a></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/ChartTabs</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html#~getGraphData">getGraphData</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html#~initiateChart">initiateChart</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_ChartTabs.html#~updateCharts">updateCharts</a></li></ul></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/SpeedChart</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html#~createChart">createChart</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html#~prepData">prepData</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_SpeedChart.html#~update">update</a></li></ul></li><li><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html">ResultsPane/widgets/AreaTemporalMetrics/widgets/TemporalChart</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html#~createChart">createChart</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html#~prepData">prepData</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_AreaTemporalMetrics_widgets_TemporalChart.html#~update">update</a></li></ul></li><li><a href="module-ResultsPane_widgets_ExportCSV.html">ResultsPane/widgets/ExportCSV</a></li><li><a href="module-ResultsPane_widgets_ExportCrashRecords.html">ResultsPane/widgets/ExportCrashRecords</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ExportCrashRecords.html#~enableSpinner">enableSpinner</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ExportCrashRecords.html#~exportRecords">exportRecords</a></li></ul></li><li><a href="module-ResultsPane_widgets_FilterSummary.html">ResultsPane/widgets/FilterSummary</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_FilterSummary.html#~formatYearFilter">formatYearFilter</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_FilterSummary.html#~removeLabels">removeLabels</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_FilterSummary.html#~update">update</a></li></ul></li><li><a href="module-ResultsPane_widgets_ResultsGrid.html">ResultsPane/widgets/ResultsGrid</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~compare_cty_code">compare_cty_code</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~compare_muni_code">compare_muni_code</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~exportCsv">exportCsv</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~removeDuplicateObjects">removeDuplicateObjects</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~removeHighlight">removeHighlight</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~resize">resize</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~show">show</a></li><li data-type='method' style='display: none;'><a href="module-ResultsPane_widgets_ResultsGrid.html#~update">update</a></li></ul></li><li><a href="module-SettingsMenu.html">SettingsMenu</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~disableClusterToggleButton">disableClusterToggleButton</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~hide">hide</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~show">show</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu.html#~startTour">startTour</a></li></ul></li><li><a href="module-SettingsMenu_widgets_BasemapToggle.html">SettingsMenu/widgets/BasemapToggle</a></li><li><a href="module-SettingsMenu_widgets_ClusterToggle.html">SettingsMenu/widgets/ClusterToggle</a></li><li><a href="module-SettingsMenu_widgets_CrashClusterSelect.html">SettingsMenu/widgets/CrashClusterSelect</a></li><li><a href="module-SettingsMenu_widgets_MenuAnnotationToggle.html">SettingsMenu/widgets/MenuAnnotationToggle</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-SettingsMenu_widgets_MenuAnnotationToggle.html#~setAnnotationMode">setAnnotationMode</a></li></ul></li><li><a href="module-SettingsMenu_widgets_SignalsTourToggle_widgets_WelcomeTour.html">SettingsMenu/widgets/SignalsTourToggle/widgets/WelcomeTour</a></li><li><a href="module-SettingsMenu_widgets_TourToggle.html">SettingsMenu/widgets/TourToggle</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-SettingsMenu_widgets_TourToggle.html#~mouseEnterHandler">mouseEnterHandler</a></li><li data-type='method' style='display: none;'><a href="module-SettingsMenu_widgets_TourToggle.html#~mouseLeaveHandler">mouseLeaveHandler</a></li></ul></li><li><a href="module-SettingsMenu_widgets_UserManual.html">SettingsMenu/widgets/UserManual</a></li><li><a href="module-StatsExplorer.html">StatsExplorer</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~clear">clear</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~clearChart">clearChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~clearVehicleChartDivs">clearVehicleChartDivs</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createChart">createChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createPersonsSeverityChart">createPersonsSeverityChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createSelect">createSelect</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createVehicleModelChart">createVehicleModelChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~createVehiclesAttributeChart">createVehiclesAttributeChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~generateVehicleChartDivs">generateVehicleChartDivs</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~init">init</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~loading">loading</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~loadingDiv">loadingDiv</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~update">update</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~updateSeverityChart">updateSeverityChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~updateStatsChart">updateStatsChart</a></li><li data-type='method' style='display: none;'><a href="module-StatsExplorer.html#~updateVehicleMakeChart">updateVehicleMakeChart</a></li></ul></li><li><a href="module-StatsPane.html">StatsPane</a><ul class='methods'><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~checkOpen">checkOpen</a></li><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~init">init</a></li><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~togglePane">togglePane</a></li><li data-type='method' style='display: none;'><a href="module-StatsPane.html#~update">update</a></li></ul></li><li><a href="module-Utilities.html">Utilities</a></li><li><a href="module-urls.html">urls</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">CrashMap/widgets/CrashSegmentsHeatmap/index.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import MapSources from '../MapSources';
+import Utilities from '../../../Utilities';
+import urls from '../../../urls';
+
+/**
+ * Creates a color schema using the minimum and maximum number of crashes in `features` and dividing the number of crashes by the number of colors in the variable `colorArray`.
+ * @date 2024-10-25
+ * @function createColorRamp
+ * @param {object[]} features An array of objects containing crash data. Each data point should contain the attribute `properties.crashes`.
+ * @returns {object[]} An array of objects containing the color ramp to visualize the inputted `features`.
+ * @example
+ * console.log(createColorRamp(features)); // [{from: 0, to: 100, color: '#a1dbb2'}, {from: 101, to: 157, color: '#fee5ad'}, ...]
+ */
+function createColorRamp(features) {
+    // const colorArray = ['#a1dbb2', '#fee5ad', '#faca66', '#f7a541', '#f45d4c'];
+    // const colorArray = ['#008000', '#7fff00', '#ffff00', '#fa8072', '#ff0000', '#800080'];
+    const colorArray = ['#11d68f', '#ffcf43', '#f24e42', '#a92727'];
+    const colorRange = [];
+    // get the unique values from the features as these are what we will visualize
+    const featureValues = new Set(features.map((feature) => feature['properties']['crash_count']));
+    // convert to array and sort
+    const visualizationValues = [...featureValues].sort((a, b) => b - a);
+    // get min and max as they will be used to set the gradient
+    let minimumValue = Math.min(...visualizationValues);
+    let adjustedMinimumValue = minimumValue === 0 ? minimumValue + 1 : minimumValue;
+    const maximumValue = Math.max(...visualizationValues);
+    const parts = 5;
+    const bucketSize = (maximumValue - adjustedMinimumValue) / parts;
+
+    if (visualizationValues) {
+        if (visualizationValues.length > 5) {
+            if (minimumValue === 0) {
+                colorRange.push({
+                    from: 0,
+                    to: 0,
+                    color: '#D3D3D3',
+                });
+            }
+
+            colorArray.forEach((color, index) => {
+                colorRange.push({
+                    from: Math.floor(adjustedMinimumValue + bucketSize * index),
+                    to: Math.floor(adjustedMinimumValue - (index &lt; 4 ? 1 : 0) + bucketSize * (index + 1)),
+                    color: color,
+                });
+            });
+        } else if (visualizationValues.length > 0) {
+            visualizationValues.forEach((value) => {
+                if (value > 0) {
+                    colorRange.push({
+                        from: value,
+                        to: value,
+                        color: colorArray.pop(),
+                    });
+                } else {
+                    colorRange.push({
+                        from: 0,
+                        to: 0,
+                        color: '#D3D3D3',
+                    });
+                }
+            });
+
+            // mapbox styles require the values to be ascending
+            colorRange.sort((a, b) => a.from - b.from);
+        } else {
+            return colorRange;
+        }
+    } else {
+        return colorRange;
+    }
+
+    return colorRange;
+}
+
+/**
+ * Creates the Mapbox expression to visualize the heatmap layer.
+ * @date 2024-10-25
+ * @function createHeatmapScheme
+ * @param {object[]} colorRamp An array of objects containing the color ramp to visualize the inputted `features`.
+ * @returns {string[]} The Mapbox expression to visualize the heatmap layer.
+ */
+function createHeatmapScheme(colorRamp) {
+    const colorFill = ['interpolate', ['linear'], ['var', 'crash_count']];
+
+    colorRamp.forEach((item) => {
+        colorFill.push(item.from);
+        colorFill.push(['to-color', item.color]);
+    });
+
+    return ['let', 'crash_count', ['get', 'crash_count'], colorFill];
+}
+
+/**
+ * Updates the layer with a new heatmap color scheme.
+ * @param {function} map The Mapbox map.
+ * @param {object[]} colorRamp An array of objects containing the color ramp to visualize the inputted `features`.
+ * @param {string} layerID The layer name to update the heatmap schema for.
+ */
+function updateHeatmapPaint(map, colorRamp, layerData) {
+    let colorFill;
+    let layerId = layerData.id;
+
+    if (colorRamp.length == 0) {
+        // map.setPaintProperty(layerId, 'fill-opacity', 0);
+    } else {
+        colorFill = createHeatmapScheme(colorRamp);
+        map.setPaintProperty(layerId, layerData.type + '-color', colorFill);
+
+        if (layerData.paintAttributes) {
+            Object.keys(layerData.paintAttributes).forEach((attr) => {
+                map.setPaintProperty(layerId, attr, layerData.paintAttributes[attr]);
+            });
+        } else {
+            map.setPaintProperty(layerId, layerData.type + '-opacity', 1);
+        }
+    }
+}
+
+/**
+ * Updates the layer's label values. If the label layer doesn't exist, creates and adds the label layer to the map.
+ * @date 2024-15-25
+ * @function updateLabels
+ * @param {function} map The Mapbox map.
+ * @param {object} layerDefinition An object containing attributes of the target layer.
+ * @param {object[]} features An array of objects containing crash data. Each data point should contain the attribute `properties.crashes`.
+ * @param {function} idleHandler Function to fire when the map is idle.
+ */
+function updateLabels(map, layerDefinition, features, idleHandler) {
+    if (map.getLayer(layerDefinition.id)) {
+        const labelSourceName = `${layerDefinition.id}_labels_source`;
+        const labelLayerName = `${layerDefinition.id}_labels`;
+        const source = map.getSource(labelSourceName);
+        const labels = {
+            type: 'FeatureCollection',
+            features: [],
+        };
+
+        if (features &amp;&amp; features.length > 0) {
+            features.forEach((feature) => {
+                if (feature.properties.centroid) {
+                    const label = {
+                        type: 'Feature',
+                        properties: {},
+                        geometry: { type: 'Point' },
+                    };
+
+                    // truncate the label for large counts
+                    if (feature.properties.crash_count > 1000) {
+                        label.properties.description = (Math.round(feature.properties.crash_count / 1000) * 1000).toString().slice(0, -3) + 'K';
+                    } else {
+                        if (feature.properties.crash_count > 0) {
+                            label.properties.description = feature.properties.crash_count;
+                        } else {
+                            label.properties.description = '';
+                        }
+                    }
+
+                    label.geometry.coordinates = JSON.parse(feature.properties.centroid);
+                    labels.features.push(label);
+                }
+            });
+        }
+
+        if (source) {
+            source.setData(labels);
+        } else {
+            map.addSource(labelSourceName, {
+                type: 'geojson',
+                data: labels,
+            });
+            map.addLayer({
+                id: labelLayerName,
+                type: 'symbol',
+                source: labelSourceName,
+                maxzoom: 10,
+                layout: {
+                    'text-field': ['get', 'description'],
+                    'text-size': ['interpolate', ['exponential', 2], ['zoom'], 7.5, 14, 10, 20],
+                },
+                paint: {
+                    'text-halo-width': ['interpolate', ['exponential', 2], ['zoom'], 7.5, 3, 10, 4],
+                    'text-halo-color': 'rgba(255,255,255,0.75)',
+                },
+            });
+
+            Object.defineProperty(map.getLayer(layerDefinition.id), 'visible', {
+                get: function () {
+                    return this['_visible'];
+                },
+                set: function (value) {
+                    this['_visible'] = value;
+
+                    map.setLayoutProperty(labelLayerName, 'visibility', value);
+                    map.setLayoutProperty(layerDefinition.id, 'visibility', value);
+
+                    if (value === 'none') {
+                        map.off('idle', idleHandler);
+                    } else {
+                        map.on('idle', idleHandler);
+                    }
+                },
+                enumerable: false,
+            });
+        }
+    }
+}
+
+/**
+ * Updates the heatmap schema for this layer and updates the color and value schema in the legend.
+ * @date 2024-10-31
+ * @param {object[]} features An array of objects containing crash data. Each data point should contain the attribute `properties.crashes`.
+ * @param {function} map The Mapbox map.
+ * @param {function} legendCard The legend card module for this layer.
+ * @param {function} idleHandler Function to fire when the map is idle.
+ */
+function updateVisualization(features, map, layerDefinition, legendCard, idleHandler) {
+    const colorRamp = createColorRamp(features);
+
+    map.crashFeatures = features;
+    updateHeatmapPaint(map, colorRamp, layerDefinition);
+    updateLabels(map, layerDefinition, features, idleHandler);
+
+    legendCard.update(colorRamp);
+    legendCard.loadingIndicator.classList.add('hidden');
+    // map.update();
+}
+
+/**
+ * Computes the q-th quantile of a sorted array of numbers.
+ * @function quantile
+ * @param {number[]} sortedValues - An array of numbers sorted in ascending order.
+ * @param {number} q - The quantile to compute, a number between 0 and 1 (e.g., 0.5 for median).
+ * @returns {number} The computed q-th quantile value.
+ * @date 2024-11-22
+ * @example
+ * // Example usage:
+ * const sortedArray = [1, 2, 3, 4, 5];
+ * const result = quantile(sortedArray, 0.5); // result: 3 (median)
+ */
+function quantile(sortedValues, q) {
+    const pos = (sortedValues.length - 1) * q;
+    const base = Math.floor(pos);
+    const rest = pos - base;
+
+    if (sortedValues[base + 1] !== undefined) {
+        return sortedValues[base] + rest * (sortedValues[base + 1] - sortedValues[base]);
+    } else {
+        return sortedValues[base];
+    }
+}
+
+function getLineColorArray(crashCounts) {
+    let quantiles = [];
+    let colors = ['green', 'chartreuse', 'yellow', 'salmon', 'red', 'purple'];
+    let lineColorArray = ['step', ['to-number', ['get', 'crash_count']]];
+
+    quantiles.push(quantile(crashCounts, 0.25));
+    quantiles.push(quantile(crashCounts, 0.5));
+    quantiles.push(quantile(crashCounts, 0.75));
+    quantiles.push(quantile(crashCounts, 0.95));
+    quantiles.push(quantile(crashCounts, 0.99));
+    quantiles = [...new Set(quantiles)].sort((a, b) => {
+        return a - b;
+    });
+
+    if (colors.length > quantiles.length) {
+        lineColorArray.push(colors[colors.length - quantiles.length - 1]);
+    } else {
+        lineColorArray.push(colors[0]);
+    }
+
+    quantiles.forEach((quantile, index) => {
+        lineColorArray.push(quantile);
+        lineColorArray.push(colors[colors.length - quantiles.length + index]);
+    });
+
+    if (crashCounts) {
+        return lineColorArray;
+    } else {
+        return [];
+    }
+}
+
+/**
+ * Creates the color schema for the layer based on the map's current zoom level.
+ * @date 2024-11-01
+ * @param {number} zoomLevel The current zoom level of the map.
+ * @returns {object} An object with the structure:
+ * - `mapStyleArray`: An array containing the Mapbox expression for the layer's crash count color schema.
+ * console.log(getStaticColorArray(12.78));   
+ * // {
+ * //   mapStyleArray: ['step', ["to-number", ['get', 'crash_count']], '#008000', 0, '#008000', 17, ...]
+ * //   legendRamp: [{from: 0, to: 17, color: '#008000'}, {from: 17, to: 83, color: '#7fff00'}, ...]
+ * // }
+ */
+function getStaticColorArray(zoomLevel) {
+    const flooredZoom = Math.floor(zoomLevel);
+    let mapStyleArray = ['step', ['to-number', ['get', 'crash_count']], '#008000'];
+    const colors = ['#008000', '#7fff00', '#ffff00', '#fa8072', '#ff0000', '#800080'];
+    const base = [0, 1, 5, 10, 20, 30];
+    const adjustment = {
+        6: 100,
+        7: 100,
+        8: 66.66666667,
+        9: 33.33333333,
+        10: 33.33333333,
+        11: 33.33333333,
+        12: 16.66666667,
+        13: 8.333333333,
+        14: 4,
+        15: 2,
+        16: 1,
+    };
+
+    const zoomAdjusted = base.map((value, index) => {
+        return Math.round(value * adjustment[flooredZoom]);
+    });
+
+    const legendRamp = base.map((value, index) => {
+        let step;
+
+        // this accounts for the index shifting to get ranges
+        if (base[index + 1]) {
+            step = {
+                from: Math.round(base[index] * adjustment[flooredZoom]),
+                to: Math.round(base[index + 1] * adjustment[flooredZoom]),
+                color: colors[index],
+            };
+        } else {
+            step = {
+                from: Math.round(base[index] * adjustment[flooredZoom]),
+                to: Math.round(base[index] * adjustment[flooredZoom]),
+                color: colors[index],
+                maxValue: true,
+            };
+        }
+
+        return step;
+    });
+
+    colors.forEach((color, index) => {
+        mapStyleArray.push(zoomAdjusted[index]);
+        mapStyleArray.push(color);
+    });
+
+    return {
+        mapStyleArray: mapStyleArray,
+        legendRamp: legendRamp,
+    };
+}
+
+/**
+ * Creates the cluster layer and adds it to the Mapbox map.
+ * @date 2024-30-25
+ * @module CrashMap/widgets/CrashSegmentsHeatmap
+ * @param {function} crashMap The Crash Map module.
+ * @param {function} map The Mapbox map.
+ * @param {function} crashFilter  Handles getters and setters when the user selects the crash filters.
+ * @param {string} layerID The layer name.
+ * @requires ../MapSources.js
+ * @requires ../../../Utilities
+ * @requires ../../../urls
+ * @example
+ * const networkSegmentLayer = new CrashSegmentsHeatmap(crashMap, map, self.crashFilter, "cluster_heatmap");
+ */
+export default function CrashSegmentsHeatmap(crashMap, map, crashFilter, layerID, layerGroupId) {
+    const self = this;
+    const mapSources = new MapSources(map);
+    const layerDefinition = mapSources.getMapLayerData(layerID);
+    const layerGroup = mapSources.getLayerGroupData(layerGroupId);
+    const appliedFilters = crashFilter.getSelectedFilters();
+    this.loadingIndicators = [];
+    this.layerDefinition = layerDefinition;
+    this.labelSourceName = `${layerDefinition.id}_labels_source`;
+    this.labelLayerName = `${layerDefinition.id}_labels`;
+    this.legendCard = map.legend.addLayer(layerDefinition, [], true, true);
+
+    Object.defineProperty(this, 'disabled', {
+        get: function () {
+            return this['_disabled'];
+        },
+        set: function (value) {
+            this['_disabled'] = value;
+
+            layerGroup.layers.forEach(function (layer) {
+                let mapLayer = map.getLayer(layer.id);
+                if (value) {
+                    map.setFilter(layer.id, null);
+                    map.setLayoutProperty(layer.id, 'visibility', 'none');
+                } else {
+                    if (mapLayer) mapLayer.disabled = value;
+                    map.setLayoutProperty(layer.id, 'visibility', 'visible');
+                }
+                if (mapLayer) mapLayer.disabled = value;
+            });
+        },
+        enumerable: false
+    });
+
+
+    /**
+     * Adds the heat map layer to the Mapbox map.
+     * @date 2024-10-31
+     * @function addToMap
+     * @param {object} appliedFilters An object containing the currently applied crash filters.
+     * @param {boolean} disabled=false Boolean to determine if the layer is enabled on the map and displayed on the legend.
+     * If false, the layer is displayed on the map and legend.
+     * @param {string} isVisible='visible' The Mapbox visibility value for a layer. Choices are 'visible' or 'none'.
+     * @example
+     * const crashFilter = {year: '2023,2024', environ_cond_code: "01,02"};
+     * crashClusterLayer.addToMap(crashFilter);
+     */
+    this.addToMap = function (appliedFilters, disabled = false, isVisible = 'visible') {
+        map.addSource(layerGroup.source, {
+            type: 'vector',
+            tiles: [layerGroup['source-tiles'](appliedFilters, map.getBounds().toArray()).tileEndpoint],
+            attribution: 'New Jersey Department of Treasury NJTR-1 Reports 2020',
+        });
+
+        layerGroup.layers.forEach(function (layer) {
+            if (layer.beforeLayer) {
+                map.addLayer(layer, layer.beforeLayer);
+            } else {
+                map.addLayer(layer);
+            }
+
+            map.on('sourcedata', self.updateSource);
+
+            if (layer.mouseleave) {
+                map.on('mouseleave', layer.id, layer.mouseleave);
+            } else {
+                map.on('mouseenter', layer.id, function () {
+                    map.getCanvas().style.cursor = 'pointer';
+                });
+            }
+            if (layer.mouseenter) {
+                map.on('mouseenter', layer.id, layer.mouseenter);
+            } else {
+                map.on('mouseleave', layer.id, function () {
+                    map.getCanvas().style.cursor = '';
+                });
+            }
+            map.setLayoutProperty(layer.id, 'visibility', isVisible);
+        });
+
+        self.disabled = disabled;
+        layerGroup.layers.forEach(function (layer) {
+            map.setLayoutProperty(layer.id, 'visibility', isVisible);
+        });
+
+        Object.defineProperty(map.getLayer(layerGroup.id), 'visible', {
+            get: function () {
+                return this['_visible'];
+            },
+            set: function (value) {
+                this['_visible'] = value;
+
+                layerGroup.layers.forEach(function (layer) {
+                    map.setLayoutProperty(layer.id, 'visibility', value);
+                });
+
+                if (value === 'none') {
+                    map.off('sourcedata', self.updateSource);
+                } else {
+                    map.on('sourcedata', self.updateSource);
+                }
+            },
+            enumerable: false
+        });
+
+    };
+
+    /**
+     * Updates the layer with new data based on the user's map view.
+     * @date 2024-10-31
+     * @function update
+     * @param {object} appliedFilters An object containing the currently applied crash filters.
+     */
+    this.update = function (appliedFilters) {
+        self.clearVisuals(true);
+
+        const query = layerDefinition['source-tiles'](appliedFilters, map.getBounds().toArray());
+        map.getSource(layerDefinition.source).tiles = [query.tileEndpoint + `&amp;dt=${Date.now()}`];
+
+        // Remove the tiles for a particular source
+        map.style._sourceCaches['other:' + layerDefinition.source].clearTiles();
+        map.style._sourceCaches['symbol:' + layerDefinition.source].clearTiles();
+
+        // Load the new tiles for the current viewport (map.transform -> viewport)
+        map.style._sourceCaches['other:' + layerDefinition.source].update(map.transform);
+        map.style._sourceCaches['symbol:' + layerDefinition.source].update(map.transform);
+
+        // Force a repaint, so that the map will be repainted without you having to touch the map
+        map.triggerRepaint();
+    };
+
+    /**
+     * Checks if the layer tiles are loaded to update the layer's visualization.
+     * @date 2024-10-31
+     * @function updateSourceData
+     * @param {object} source The current Mapbox source that is being updated.
+     */
+    this.updateSourceData = function (source) {
+        if (source.sourceId === layerDefinition.source) {
+            // console.log('segment heatmap updateSourceData');
+            if (self.legendCard) {
+                if (map.getLayer(layerDefinition.id).visibility === 'visible') {
+                    self.legendCard.loadingIndicator.classList.remove('hidden');
+                }
+            }
+
+            crashMap.FilterMenu.isLoading(true);
+
+            if (map.areTilesLoaded(source.sourceId) || (map.isSourceLoaded(source.sourceId))) {
+                const features = map.queryRenderedFeatures({ layers: ['crash_segments'] });
+
+                updateVisualization(features, map, layerDefinition, self.legendCard, self.updateSource);
+
+                if (features.length > 0) {
+                    map.crashFeatures = features; // trigger the Results Grid to update with this data
+                }
+
+                if (self.legendCard) {
+                    self.loadingIndicators.forEach((indicator) => {
+                        indicator.classList.remove('loading');
+                    });
+                    self.legendCard.loadingIndicator.classList.add('hidden');
+                    // self.legendCard.update(colorRamps.legendRamp);
+                }
+
+                crashMap.FilterMenu.isLoading(false);
+                crashMap.FilterMenu.toggle.highlight();
+                crashMap.FilterMenu.clearCheckBoxSpinners();
+            }
+        }
+    };
+
+    this.idleHandler = function (source) {
+        map.setPaintProperty('crash_segments', 'line-color', getStaticColorArray(map.getZoom()));
+    };
+
+    // idle function added because the heatmap would not load on zooming
+    this.updateSource = function () {
+        // // crashMap.FilterMenu.isLoading(true);
+        // if crashMap.refreshMap is true AND the zoom level is within min/max zoom of the layer, update the heatmap
+        if (!self['disabled'] &amp;&amp; crashMap.refreshMap &amp;&amp; map.getZoom() &lt;= layerDefinition.maxzoom &amp;&amp; map.getZoom() >= layerDefinition.minzoom) {
+            // updateVisualization(map, layerDefinition, self.legendCard, self.updateSource);
+            crashMap.refreshMap = false;
+        }
+    };
+
+    /**
+     * Clears all county heatmap tiles from the map.
+     * @date 2024-11-22
+     * @function clearVisuals
+     * @param {boolean} clearTiles If true, clears all map tiles from the map cache.
+     */
+    this.clearVisuals = function (clearTiles) {
+        const source = map.getSource(self.labelSourceName);
+        if (source) {
+            const labels = {
+                type: 'FeatureCollection',
+                features: [],
+            };
+            source.setData(labels);
+        }
+
+        if (clearTiles) {
+            // Remove the tiles for a particular source
+            map.style._sourceCaches['other:' + layerDefinition.source].clearTiles();
+            map.style._sourceCaches['symbol:' + layerDefinition.source].clearTiles();
+        }
+    };
+
+
+    /**
+     * Highlights a crash segment on the map based on the crash segment's feature geometry.
+     * Updates the highlight layer with the crash segment's feature geometry.
+     * @date 2024-11-01
+     * @function highlightFeature
+     * @param {object} tableRow An object containing the layer's data and geometry. 
+     * This object is from using the Mapbox function `getRenderedFeatures`.
+     */
+    this.highlightFeature = function (tableRow) {
+        if (tableRow.hasOwnProperty('segment_id')) {
+            // console.log(tableRow.segment_id)
+            const selectedFeature = crashMap.map.queryRenderedFeatures({
+                layers: ['crash_segments'],
+                filter: [
+                    'all',
+                    ['==', 'segment_id', tableRow.segment_id],
+                    ['==', 'crash_count', tableRow.crash_count],
+                    ['==', 'sri', tableRow.sri],
+                    ['==', 'milepost_range_text', tableRow.milepost_range_text],
+                    ['==', 'segment_directions', tableRow.segment_directions],
+                ],
+            });
+            // console.log(selectedFeature);
+            if (selectedFeature.length == 1) {
+                crashMap.map.highlightFeature.update(selectedFeature[0].geometry);
+            }
+        }
+    };
+
+    this.addToMap(appliedFilters);
+
+    map.on('sourcedata', self.updateSourceData); // load the heatmap on application startup
+    map.on('idle', self.idleHandler); // when the user stops map movement, update the heatmap
+    map.on('error', (response) => {
+        if (crashMap.isCountyView()) {
+            if (response.error.status === 500 &amp;&amp; response.error.url.includes(urls.countyMvtURL) &amp;&amp; map.isSourceLoaded(layerDefinition.source) &amp;&amp; map.areTilesLoaded()) {
+                Utilities.createModal(
+                    'Filter Timed Out',
+                    'Your query timed out. This can happen when larger datasets are requested from the server, or the server is busy. Please zoom into the map to decrease the dataset size.',
+                    'OK',
+                    false
+                );
+                crashMap.FilterMenu.isLoading(false);
+                self.clearVisuals();
+            }
+        }
+    });
+}
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.4</a> on Tue Dec 17 2024 10:18:34 GMT-0500 (Eastern Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+<script src="scripts/collapse.js" defer></script>
+
+
+</body>
+</html>
